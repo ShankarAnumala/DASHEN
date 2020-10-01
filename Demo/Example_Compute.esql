@@ -1,5 +1,5 @@
 
-
+/* Demo flow */
 CREATE COMPUTE MODULE Example_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
