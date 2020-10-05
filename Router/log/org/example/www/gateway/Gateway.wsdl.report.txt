@@ -1,0 +1,34 @@
+
+
+Importing file: C:\Users\eidiko\IBM\ACET11\DashenDEV\SampleSoap\Gateway.wsdl
+
+The WSDL import will proceed with bindings AccountBalanceEnquiry, BankToWallet, InternalTransfer, WalletToBank.
+Creating wsdl schema document for file:///C:/Users/eidiko/IBM/ACET11/DashenDEV/SampleSoap/Gateway.wsdl.
+Parsing wsdl binding {http://www.example.org/Gateway/}WalletToBank.
+Parsing wsdl binding input WalletToBank.
+Parsing wsdl binding output WalletToBank.
+Parsing wsdl binding {http://www.example.org/Gateway/}BankToWallet.
+Parsing wsdl binding input BankToWallet.
+Parsing wsdl binding output BankToWallet.
+Parsing wsdl binding {http://www.example.org/Gateway/}InternalTransfer.
+Parsing wsdl binding input InternalTransfer.
+Parsing wsdl binding output InternalTransfer.
+Parsing wsdl binding {http://www.example.org/Gateway/}AccountBalanceEnquiry.
+Parsing wsdl binding input AccountBalanceEnquiry.
+Parsing wsdl binding output AccountBalanceEnquiry.
+Processing doc style for operation WalletToBank.
+Processing doc style for operation BankToWallet.
+Processing doc style for operation InternalTransfer.
+Processing doc style for operation AccountBalanceEnquiry.
+Populating WSDL schema Gateway.xsd.
+Creating file Gateway.xsd in the workspace.
+Creating file Gateway_InlineSchema1.xsd in the workspace.
+Copying source WSDL Gateway.wsdl to Gateway.wsdl.
+
+Elapsed time processing this message definition file: 0.334 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
