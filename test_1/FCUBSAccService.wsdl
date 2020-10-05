@@ -1,0 +1,3356 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="FCUBSAccService" targetNamespace="http://FCUBSAccService.types.ws.gw.fcubs.ofss.com" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://fcubs.ofss.com/service/FCUBSAccService" xmlns:tns="http://FCUBSAccService.types.ws.gw.fcubs.ofss.com" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <documentation>
+    <appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <binding hasEncoding="false" imported="true" name="FCUBSAccService" originalBindingStyle="document"/>
+      </MRWSDLAppInfo>
+    </appinfo>
+  </documentation>
+<wsdl:types>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="AuthorizeAcClassTfrFSReq">
+   <wsdl:part element="ns:AUTHORIZEACCLASSTFR_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAcClassTfrFSRes">
+   <wsdl:part element="ns:AUTHORIZEACCLASSTFR_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAcClassTfrIOReq">
+   <wsdl:part element="ns:AUTHORIZEACCLASSTFR_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAcClassTfrPKRes">
+   <wsdl:part element="ns:AUTHORIZEACCLASSTFR_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAutoDepInsFSReq">
+   <wsdl:part element="ns:AUTHORIZEAUTODEPINS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAutoDepInsFSRes">
+   <wsdl:part element="ns:AUTHORIZEAUTODEPINS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAutoDepInsIOReq">
+   <wsdl:part element="ns:AUTHORIZEAUTODEPINS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeAutoDepInsPKRes">
+   <wsdl:part element="ns:AUTHORIZEAUTODEPINS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCbStmtFSReq">
+   <wsdl:part element="ns:AUTHORIZECBSTMT_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCbStmtFSRes">
+   <wsdl:part element="ns:AUTHORIZECBSTMT_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCbStmtIOReq">
+   <wsdl:part element="ns:AUTHORIZECBSTMT_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCbStmtPKRes">
+   <wsdl:part element="ns:AUTHORIZECBSTMT_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckBookFSReq">
+   <wsdl:part element="ns:AUTHORIZECHECKBOOK_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckBookFSRes">
+   <wsdl:part element="ns:AUTHORIZECHECKBOOK_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckBookIOReq">
+   <wsdl:part element="ns:AUTHORIZECHECKBOOK_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckBookPKRes">
+   <wsdl:part element="ns:AUTHORIZECHECKBOOK_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckDetailsFSReq">
+   <wsdl:part element="ns:AUTHORIZECHECKDETAILS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckDetailsFSRes">
+   <wsdl:part element="ns:AUTHORIZECHECKDETAILS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckDetailsIOReq">
+   <wsdl:part element="ns:AUTHORIZECHECKDETAILS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCheckDetailsPKRes">
+   <wsdl:part element="ns:AUTHORIZECHECKDETAILS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeChqArchivalFSReq">
+   <wsdl:part element="ns:AUTHORIZECHQARCHIVAL_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeChqArchivalFSRes">
+   <wsdl:part element="ns:AUTHORIZECHQARCHIVAL_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeChqArchivalIOReq">
+   <wsdl:part element="ns:AUTHORIZECHQARCHIVAL_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeChqArchivalPKRes">
+   <wsdl:part element="ns:AUTHORIZECHQARCHIVAL_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCustAccFSReq">
+   <wsdl:part element="ns:AUTHORIZECUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCustAccFSRes">
+   <wsdl:part element="ns:AUTHORIZECUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCustAccIOReq">
+   <wsdl:part element="ns:AUTHORIZECUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeCustAccPKRes">
+   <wsdl:part element="ns:AUTHORIZECUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeStopPaymentsFSReq">
+   <wsdl:part element="ns:AUTHORIZESTOPPAYMENTS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeStopPaymentsFSRes">
+   <wsdl:part element="ns:AUTHORIZESTOPPAYMENTS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeStopPaymentsIOReq">
+   <wsdl:part element="ns:AUTHORIZESTOPPAYMENTS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeStopPaymentsPKRes">
+   <wsdl:part element="ns:AUTHORIZESTOPPAYMENTS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDCustAccFSReq">
+   <wsdl:part element="ns:AUTHORIZETDCUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDCustAccFSRes">
+   <wsdl:part element="ns:AUTHORIZETDCUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDCustAccIOReq">
+   <wsdl:part element="ns:AUTHORIZETDCUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDCustAccPKRes">
+   <wsdl:part element="ns:AUTHORIZETDCUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDTopUpFSReq">
+   <wsdl:part element="ns:AUTHORIZETDTOPUP_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDTopUpFSRes">
+   <wsdl:part element="ns:AUTHORIZETDTOPUP_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDTopUpIOReq">
+   <wsdl:part element="ns:AUTHORIZETDTOPUP_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTDTopUpPKRes">
+   <wsdl:part element="ns:AUTHORIZETDTOPUP_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackDeleteFSReq">
+   <wsdl:part element="ns:AUTHORIZETRACKDELETE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackDeleteFSRes">
+   <wsdl:part element="ns:AUTHORIZETRACKDELETE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackDeleteIOReq">
+   <wsdl:part element="ns:AUTHORIZETRACKDELETE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackDeletePKRes">
+   <wsdl:part element="ns:AUTHORIZETRACKDELETE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackReleaseFSReq">
+   <wsdl:part element="ns:AUTHORIZETRACKRELEASE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackReleaseFSRes">
+   <wsdl:part element="ns:AUTHORIZETRACKRELEASE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackReleaseIOReq">
+   <wsdl:part element="ns:AUTHORIZETRACKRELEASE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeTrackReleasePKRes">
+   <wsdl:part element="ns:AUTHORIZETRACKRELEASE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeVirAccFSReq">
+   <wsdl:part element="ns:AUTHORIZEVIRACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeVirAccFSRes">
+   <wsdl:part element="ns:AUTHORIZEVIRACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeVirAccIOReq">
+   <wsdl:part element="ns:AUTHORIZEVIRACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="AuthorizeVirAccPKRes">
+   <wsdl:part element="ns:AUTHORIZEVIRACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseAutoDepInsFSReq">
+   <wsdl:part element="ns:CLOSEAUTODEPINS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseAutoDepInsFSRes">
+   <wsdl:part element="ns:CLOSEAUTODEPINS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseAutoDepInsIOReq">
+   <wsdl:part element="ns:CLOSEAUTODEPINS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseAutoDepInsPKRes">
+   <wsdl:part element="ns:CLOSEAUTODEPINS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCbStmtFSReq">
+   <wsdl:part element="ns:CLOSECBSTMT_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCbStmtFSRes">
+   <wsdl:part element="ns:CLOSECBSTMT_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCbStmtIOReq">
+   <wsdl:part element="ns:CLOSECBSTMT_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCbStmtPKRes">
+   <wsdl:part element="ns:CLOSECBSTMT_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCheckBookFSReq">
+   <wsdl:part element="ns:CLOSECHECKBOOK_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCheckBookFSRes">
+   <wsdl:part element="ns:CLOSECHECKBOOK_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCheckBookIOReq">
+   <wsdl:part element="ns:CLOSECHECKBOOK_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCheckBookPKRes">
+   <wsdl:part element="ns:CLOSECHECKBOOK_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCustAccFSReq">
+   <wsdl:part element="ns:CLOSECUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCustAccFSRes">
+   <wsdl:part element="ns:CLOSECUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCustAccIOReq">
+   <wsdl:part element="ns:CLOSECUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseCustAccPKRes">
+   <wsdl:part element="ns:CLOSECUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseStopPaymentsFSReq">
+   <wsdl:part element="ns:CLOSESTOPPAYMENTS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseStopPaymentsFSRes">
+   <wsdl:part element="ns:CLOSESTOPPAYMENTS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseStopPaymentsIOReq">
+   <wsdl:part element="ns:CLOSESTOPPAYMENTS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseStopPaymentsPKRes">
+   <wsdl:part element="ns:CLOSESTOPPAYMENTS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseVirAccFSReq">
+   <wsdl:part element="ns:CLOSEVIRACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseVirAccFSRes">
+   <wsdl:part element="ns:CLOSEVIRACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseVirAccIOReq">
+   <wsdl:part element="ns:CLOSEVIRACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CloseVirAccPKRes">
+   <wsdl:part element="ns:CLOSEVIRACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAcClassTfrFSReq">
+   <wsdl:part element="ns:CREATEACCLASSTFR_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAcClassTfrFSRes">
+   <wsdl:part element="ns:CREATEACCLASSTFR_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAcClassTfrIOReq">
+   <wsdl:part element="ns:CREATEACCLASSTFR_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAcClassTfrPKRes">
+   <wsdl:part element="ns:CREATEACCLASSTFR_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAutoDepInsFSReq">
+   <wsdl:part element="ns:CREATEAUTODEPINS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAutoDepInsFSRes">
+   <wsdl:part element="ns:CREATEAUTODEPINS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAutoDepInsIOReq">
+   <wsdl:part element="ns:CREATEAUTODEPINS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateAutoDepInsPKRes">
+   <wsdl:part element="ns:CREATEAUTODEPINS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCbStmtFSReq">
+   <wsdl:part element="ns:CREATECBSTMT_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCbStmtFSRes">
+   <wsdl:part element="ns:CREATECBSTMT_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCbStmtIOReq">
+   <wsdl:part element="ns:CREATECBSTMT_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCbStmtPKRes">
+   <wsdl:part element="ns:CREATECBSTMT_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCheckBookFSReq">
+   <wsdl:part element="ns:CREATECHECKBOOK_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCheckBookFSRes">
+   <wsdl:part element="ns:CREATECHECKBOOK_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCheckBookIOReq">
+   <wsdl:part element="ns:CREATECHECKBOOK_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCheckBookPKRes">
+   <wsdl:part element="ns:CREATECHECKBOOK_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateChqArchivalFSReq">
+   <wsdl:part element="ns:CREATECHQARCHIVAL_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateChqArchivalFSRes">
+   <wsdl:part element="ns:CREATECHQARCHIVAL_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateChqArchivalIOReq">
+   <wsdl:part element="ns:CREATECHQARCHIVAL_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateChqArchivalPKRes">
+   <wsdl:part element="ns:CREATECHQARCHIVAL_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCustAccFSReq">
+   <wsdl:part element="ns:CREATECUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCustAccFSRes">
+   <wsdl:part element="ns:CREATECUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCustAccIOReq">
+   <wsdl:part element="ns:CREATECUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateCustAccPKRes">
+   <wsdl:part element="ns:CREATECUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateStopPaymentsFSReq">
+   <wsdl:part element="ns:CREATESTOPPAYMENTS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateStopPaymentsFSRes">
+   <wsdl:part element="ns:CREATESTOPPAYMENTS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateStopPaymentsIOReq">
+   <wsdl:part element="ns:CREATESTOPPAYMENTS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateStopPaymentsPKRes">
+   <wsdl:part element="ns:CREATESTOPPAYMENTS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDCustAccFSReq">
+   <wsdl:part element="ns:CREATETDCUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDCustAccFSRes">
+   <wsdl:part element="ns:CREATETDCUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDCustAccIOReq">
+   <wsdl:part element="ns:CREATETDCUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDCustAccPKRes">
+   <wsdl:part element="ns:CREATETDCUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDSimFSReq">
+   <wsdl:part element="ns:CREATETDSIM_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDSimFSRes">
+   <wsdl:part element="ns:CREATETDSIM_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDSimIOReq">
+   <wsdl:part element="ns:CREATETDSIM_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDSimPKRes">
+   <wsdl:part element="ns:CREATETDSIM_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDTopUpFSReq">
+   <wsdl:part element="ns:CREATETDTOPUP_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDTopUpFSRes">
+   <wsdl:part element="ns:CREATETDTOPUP_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDTopUpIOReq">
+   <wsdl:part element="ns:CREATETDTOPUP_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTDTopUpPKRes">
+   <wsdl:part element="ns:CREATETDTOPUP_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackDeleteFSReq">
+   <wsdl:part element="ns:CREATETRACKDELETE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackDeleteFSRes">
+   <wsdl:part element="ns:CREATETRACKDELETE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackDeleteIOReq">
+   <wsdl:part element="ns:CREATETRACKDELETE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackDeletePKRes">
+   <wsdl:part element="ns:CREATETRACKDELETE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackReleaseFSReq">
+   <wsdl:part element="ns:CREATETRACKRELEASE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackReleaseFSRes">
+   <wsdl:part element="ns:CREATETRACKRELEASE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackReleaseIOReq">
+   <wsdl:part element="ns:CREATETRACKRELEASE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateTrackReleasePKRes">
+   <wsdl:part element="ns:CREATETRACKRELEASE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateVirAccFSReq">
+   <wsdl:part element="ns:CREATEVIRACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateVirAccFSRes">
+   <wsdl:part element="ns:CREATEVIRACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateVirAccIOReq">
+   <wsdl:part element="ns:CREATEVIRACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="CreateVirAccPKRes">
+   <wsdl:part element="ns:CREATEVIRACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAcClassTfrFSReq">
+   <wsdl:part element="ns:DELETEACCLASSTFR_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAcClassTfrFSRes">
+   <wsdl:part element="ns:DELETEACCLASSTFR_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAcClassTfrIOReq">
+   <wsdl:part element="ns:DELETEACCLASSTFR_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAcClassTfrPKRes">
+   <wsdl:part element="ns:DELETEACCLASSTFR_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAutoDepInsFSReq">
+   <wsdl:part element="ns:DELETEAUTODEPINS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAutoDepInsFSRes">
+   <wsdl:part element="ns:DELETEAUTODEPINS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAutoDepInsIOReq">
+   <wsdl:part element="ns:DELETEAUTODEPINS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteAutoDepInsPKRes">
+   <wsdl:part element="ns:DELETEAUTODEPINS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCbStmtFSReq">
+   <wsdl:part element="ns:DELETECBSTMT_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCbStmtFSRes">
+   <wsdl:part element="ns:DELETECBSTMT_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCbStmtIOReq">
+   <wsdl:part element="ns:DELETECBSTMT_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCbStmtPKRes">
+   <wsdl:part element="ns:DELETECBSTMT_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCheckBookFSReq">
+   <wsdl:part element="ns:DELETECHECKBOOK_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCheckBookFSRes">
+   <wsdl:part element="ns:DELETECHECKBOOK_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCheckBookIOReq">
+   <wsdl:part element="ns:DELETECHECKBOOK_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCheckBookPKRes">
+   <wsdl:part element="ns:DELETECHECKBOOK_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteChqArchivalFSReq">
+   <wsdl:part element="ns:DELETECHQARCHIVAL_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteChqArchivalFSRes">
+   <wsdl:part element="ns:DELETECHQARCHIVAL_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteChqArchivalIOReq">
+   <wsdl:part element="ns:DELETECHQARCHIVAL_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteChqArchivalPKRes">
+   <wsdl:part element="ns:DELETECHQARCHIVAL_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCustAccFSReq">
+   <wsdl:part element="ns:DELETECUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCustAccFSRes">
+   <wsdl:part element="ns:DELETECUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCustAccIOReq">
+   <wsdl:part element="ns:DELETECUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteCustAccPKRes">
+   <wsdl:part element="ns:DELETECUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteStopPaymentsFSReq">
+   <wsdl:part element="ns:DELETESTOPPAYMENTS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteStopPaymentsFSRes">
+   <wsdl:part element="ns:DELETESTOPPAYMENTS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteStopPaymentsIOReq">
+   <wsdl:part element="ns:DELETESTOPPAYMENTS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteStopPaymentsPKRes">
+   <wsdl:part element="ns:DELETESTOPPAYMENTS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDCustAccFSReq">
+   <wsdl:part element="ns:DELETETDCUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDCustAccFSRes">
+   <wsdl:part element="ns:DELETETDCUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDCustAccIOReq">
+   <wsdl:part element="ns:DELETETDCUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDCustAccPKRes">
+   <wsdl:part element="ns:DELETETDCUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDTopUpFSReq">
+   <wsdl:part element="ns:DELETETDTOPUP_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDTopUpFSRes">
+   <wsdl:part element="ns:DELETETDTOPUP_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDTopUpIOReq">
+   <wsdl:part element="ns:DELETETDTOPUP_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTDTopUpPKRes">
+   <wsdl:part element="ns:DELETETDTOPUP_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackDeleteFSReq">
+   <wsdl:part element="ns:DELETETRACKDELETE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackDeleteFSRes">
+   <wsdl:part element="ns:DELETETRACKDELETE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackDeleteIOReq">
+   <wsdl:part element="ns:DELETETRACKDELETE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackDeletePKRes">
+   <wsdl:part element="ns:DELETETRACKDELETE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackReleaseFSReq">
+   <wsdl:part element="ns:DELETETRACKRELEASE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackReleaseFSRes">
+   <wsdl:part element="ns:DELETETRACKRELEASE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackReleaseIOReq">
+   <wsdl:part element="ns:DELETETRACKRELEASE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteTrackReleasePKRes">
+   <wsdl:part element="ns:DELETETRACKRELEASE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteVirAccFSReq">
+   <wsdl:part element="ns:DELETEVIRACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteVirAccFSRes">
+   <wsdl:part element="ns:DELETEVIRACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteVirAccIOReq">
+   <wsdl:part element="ns:DELETEVIRACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="DeleteVirAccPKRes">
+   <wsdl:part element="ns:DELETEVIRACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAcClassTfrFSReq">
+   <wsdl:part element="ns:MODIFYACCLASSTFR_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAcClassTfrFSRes">
+   <wsdl:part element="ns:MODIFYACCLASSTFR_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAcClassTfrIOReq">
+   <wsdl:part element="ns:MODIFYACCLASSTFR_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAcClassTfrPKRes">
+   <wsdl:part element="ns:MODIFYACCLASSTFR_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAutoDepInsFSReq">
+   <wsdl:part element="ns:MODIFYAUTODEPINS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAutoDepInsFSRes">
+   <wsdl:part element="ns:MODIFYAUTODEPINS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAutoDepInsIOReq">
+   <wsdl:part element="ns:MODIFYAUTODEPINS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyAutoDepInsPKRes">
+   <wsdl:part element="ns:MODIFYAUTODEPINS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCbStmtFSReq">
+   <wsdl:part element="ns:MODIFYCBSTMT_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCbStmtFSRes">
+   <wsdl:part element="ns:MODIFYCBSTMT_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCbStmtIOReq">
+   <wsdl:part element="ns:MODIFYCBSTMT_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCbStmtPKRes">
+   <wsdl:part element="ns:MODIFYCBSTMT_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckBookFSReq">
+   <wsdl:part element="ns:MODIFYCHECKBOOK_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckBookFSRes">
+   <wsdl:part element="ns:MODIFYCHECKBOOK_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckBookIOReq">
+   <wsdl:part element="ns:MODIFYCHECKBOOK_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckBookPKRes">
+   <wsdl:part element="ns:MODIFYCHECKBOOK_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckDetailsFSReq">
+   <wsdl:part element="ns:MODIFYCHECKDETAILS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckDetailsFSRes">
+   <wsdl:part element="ns:MODIFYCHECKDETAILS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckDetailsIOReq">
+   <wsdl:part element="ns:MODIFYCHECKDETAILS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCheckDetailsPKRes">
+   <wsdl:part element="ns:MODIFYCHECKDETAILS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyChqArchivalFSReq">
+   <wsdl:part element="ns:MODIFYCHQARCHIVAL_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyChqArchivalFSRes">
+   <wsdl:part element="ns:MODIFYCHQARCHIVAL_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyChqArchivalIOReq">
+   <wsdl:part element="ns:MODIFYCHQARCHIVAL_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyChqArchivalPKRes">
+   <wsdl:part element="ns:MODIFYCHQARCHIVAL_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCustAccFSReq">
+   <wsdl:part element="ns:MODIFYCUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCustAccFSRes">
+   <wsdl:part element="ns:MODIFYCUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCustAccIOReq">
+   <wsdl:part element="ns:MODIFYCUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyCustAccPKRes">
+   <wsdl:part element="ns:MODIFYCUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyStopPaymentsFSReq">
+   <wsdl:part element="ns:MODIFYSTOPPAYMENTS_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyStopPaymentsFSRes">
+   <wsdl:part element="ns:MODIFYSTOPPAYMENTS_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyStopPaymentsIOReq">
+   <wsdl:part element="ns:MODIFYSTOPPAYMENTS_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyStopPaymentsPKRes">
+   <wsdl:part element="ns:MODIFYSTOPPAYMENTS_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDCustAccFSReq">
+   <wsdl:part element="ns:MODIFYTDCUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDCustAccFSRes">
+   <wsdl:part element="ns:MODIFYTDCUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDCustAccIOReq">
+   <wsdl:part element="ns:MODIFYTDCUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDCustAccPKRes">
+   <wsdl:part element="ns:MODIFYTDCUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDTopUpFSReq">
+   <wsdl:part element="ns:MODIFYTDTOPUP_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDTopUpFSRes">
+   <wsdl:part element="ns:MODIFYTDTOPUP_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDTopUpIOReq">
+   <wsdl:part element="ns:MODIFYTDTOPUP_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTDTopUpPKRes">
+   <wsdl:part element="ns:MODIFYTDTOPUP_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackDeleteFSReq">
+   <wsdl:part element="ns:MODIFYTRACKDELETE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackDeleteFSRes">
+   <wsdl:part element="ns:MODIFYTRACKDELETE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackDeleteIOReq">
+   <wsdl:part element="ns:MODIFYTRACKDELETE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackDeletePKRes">
+   <wsdl:part element="ns:MODIFYTRACKDELETE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackReleaseFSReq">
+   <wsdl:part element="ns:MODIFYTRACKRELEASE_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackReleaseFSRes">
+   <wsdl:part element="ns:MODIFYTRACKRELEASE_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackReleaseIOReq">
+   <wsdl:part element="ns:MODIFYTRACKRELEASE_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyTrackReleasePKRes">
+   <wsdl:part element="ns:MODIFYTRACKRELEASE_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyVirAccFSReq">
+   <wsdl:part element="ns:MODIFYVIRACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyVirAccFSRes">
+   <wsdl:part element="ns:MODIFYVIRACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyVirAccIOReq">
+   <wsdl:part element="ns:MODIFYVIRACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ModifyVirAccPKRes">
+   <wsdl:part element="ns:MODIFYVIRACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAcClassTfrFSRes">
+   <wsdl:part element="ns:QUERYACCLASSTFR_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAcClassTfrIOReq">
+   <wsdl:part element="ns:QUERYACCLASSTFR_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAccBalFSRes">
+   <wsdl:part element="ns:QUERYACCBAL_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAccBalIOReq">
+   <wsdl:part element="ns:QUERYACCBAL_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAccSummFSRes">
+   <wsdl:part element="ns:QUERYACCSUMM_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAccSummIOReq">
+   <wsdl:part element="ns:QUERYACCSUMM_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAutoDepInsFSRes">
+   <wsdl:part element="ns:QUERYAUTODEPINS_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryAutoDepInsIOReq">
+   <wsdl:part element="ns:QUERYAUTODEPINS_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCbStmtFSRes">
+   <wsdl:part element="ns:QUERYCBSTMT_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCbStmtIOReq">
+   <wsdl:part element="ns:QUERYCBSTMT_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCheckBookFSRes">
+   <wsdl:part element="ns:QUERYCHECKBOOK_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCheckBookIOReq">
+   <wsdl:part element="ns:QUERYCHECKBOOK_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCheckDetailsFSRes">
+   <wsdl:part element="ns:QUERYCHECKDETAILS_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCheckDetailsIOReq">
+   <wsdl:part element="ns:QUERYCHECKDETAILS_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryChqArchivalFSRes">
+   <wsdl:part element="ns:QUERYCHQARCHIVAL_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryChqArchivalIOReq">
+   <wsdl:part element="ns:QUERYCHQARCHIVAL_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCloseNotifiFSRes">
+   <wsdl:part element="ns:QUERYCLOSENOTIFI_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCloseNotifiIOReq">
+   <wsdl:part element="ns:QUERYCLOSENOTIFI_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCustAccFSRes">
+   <wsdl:part element="ns:QUERYCUSTACC_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCustAccIOReq">
+   <wsdl:part element="ns:QUERYCUSTACC_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCustAccBalanceFSRes">
+   <wsdl:part element="ns:QUERYCUSTACCBALANCE_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryCustAccBalanceIOReq">
+   <wsdl:part element="ns:QUERYCUSTACCBALANCE_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryGenAdviceFSRes">
+   <wsdl:part element="ns:QUERYGENADVICE_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryGenAdviceIOReq">
+   <wsdl:part element="ns:QUERYGENADVICE_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryNoactivityNotifiFSRes">
+   <wsdl:part element="ns:QUERYNOACTIVITYNOTIFI_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryNoactivityNotifiIOReq">
+   <wsdl:part element="ns:QUERYNOACTIVITYNOTIFI_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryStopPaymentsFSRes">
+   <wsdl:part element="ns:QUERYSTOPPAYMENTS_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryStopPaymentsIOReq">
+   <wsdl:part element="ns:QUERYSTOPPAYMENTS_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTDCustAccFSRes">
+   <wsdl:part element="ns:QUERYTDCUSTACC_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTDCustAccIOReq">
+   <wsdl:part element="ns:QUERYTDCUSTACC_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTDCustAccSimFSRes">
+   <wsdl:part element="ns:QUERYTDCUSTACCSIM_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTDCustAccSimIOReq">
+   <wsdl:part element="ns:QUERYTDCUSTACCSIM_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTDTopUpFSRes">
+   <wsdl:part element="ns:QUERYTDTOPUP_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTDTopUpIOReq">
+   <wsdl:part element="ns:QUERYTDTOPUP_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTopUpSimFSRes">
+   <wsdl:part element="ns:QUERYTOPUPSIM_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTopUpSimIOReq">
+   <wsdl:part element="ns:QUERYTOPUPSIM_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTopupNotifiFSRes">
+   <wsdl:part element="ns:QUERYTOPUPNOTIFI_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTopupNotifiIOReq">
+   <wsdl:part element="ns:QUERYTOPUPNOTIFI_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTrackDeleteFSRes">
+   <wsdl:part element="ns:QUERYTRACKDELETE_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTrackDeleteIOReq">
+   <wsdl:part element="ns:QUERYTRACKDELETE_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTrackReleaseFSRes">
+   <wsdl:part element="ns:QUERYTRACKRELEASE_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryTrackReleaseIOReq">
+   <wsdl:part element="ns:QUERYTRACKRELEASE_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryVirAccFSRes">
+   <wsdl:part element="ns:QUERYVIRACC_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryVirAccIOReq">
+   <wsdl:part element="ns:QUERYVIRACC_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="QuerycustAccountDetailsFSRes">
+   <wsdl:part element="ns:QUERYCUSTACCOUNTDETAILS_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QuerycustAccountDetailsIOReq">
+   <wsdl:part element="ns:QUERYCUSTACCOUNTDETAILS_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCbStmtFSReq">
+   <wsdl:part element="ns:REOPENCBSTMT_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCbStmtFSRes">
+   <wsdl:part element="ns:REOPENCBSTMT_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCbStmtIOReq">
+   <wsdl:part element="ns:REOPENCBSTMT_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCbStmtPKRes">
+   <wsdl:part element="ns:REOPENCBSTMT_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCheckBookFSReq">
+   <wsdl:part element="ns:REOPENCHECKBOOK_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCheckBookFSRes">
+   <wsdl:part element="ns:REOPENCHECKBOOK_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCheckBookIOReq">
+   <wsdl:part element="ns:REOPENCHECKBOOK_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCheckBookPKRes">
+   <wsdl:part element="ns:REOPENCHECKBOOK_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCustAccFSReq">
+   <wsdl:part element="ns:REOPENCUSTACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCustAccFSRes">
+   <wsdl:part element="ns:REOPENCUSTACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCustAccIOReq">
+   <wsdl:part element="ns:REOPENCUSTACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenCustAccPKRes">
+   <wsdl:part element="ns:REOPENCUSTACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenVirAccFSReq">
+   <wsdl:part element="ns:REOPENVIRACC_FSFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenVirAccFSRes">
+   <wsdl:part element="ns:REOPENVIRACC_FSFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenVirAccIOReq">
+   <wsdl:part element="ns:REOPENVIRACC_IOPK_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="ReopenVirAccPKRes">
+   <wsdl:part element="ns:REOPENVIRACC_IOPK_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:portType name="FCUBSAccServiceSEI">
+  <wsdl:operation name="AuthorizeAcClassTfrIO">
+     <wsdl:input message="tns:AuthorizeAcClassTfrIOReq"/>
+     <wsdl:output message="tns:AuthorizeAcClassTfrPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeAcClassTfrFS">
+     <wsdl:input message="tns:AuthorizeAcClassTfrFSReq"/>
+     <wsdl:output message="tns:AuthorizeAcClassTfrFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeAutoDepInsIO">
+     <wsdl:input message="tns:AuthorizeAutoDepInsIOReq"/>
+     <wsdl:output message="tns:AuthorizeAutoDepInsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeAutoDepInsFS">
+     <wsdl:input message="tns:AuthorizeAutoDepInsFSReq"/>
+     <wsdl:output message="tns:AuthorizeAutoDepInsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCbStmtIO">
+     <wsdl:input message="tns:AuthorizeCbStmtIOReq"/>
+     <wsdl:output message="tns:AuthorizeCbStmtPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCbStmtFS">
+     <wsdl:input message="tns:AuthorizeCbStmtFSReq"/>
+     <wsdl:output message="tns:AuthorizeCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckBookIO">
+     <wsdl:input message="tns:AuthorizeCheckBookIOReq"/>
+     <wsdl:output message="tns:AuthorizeCheckBookPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckBookFS">
+     <wsdl:input message="tns:AuthorizeCheckBookFSReq"/>
+     <wsdl:output message="tns:AuthorizeCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckDetailsIO">
+     <wsdl:input message="tns:AuthorizeCheckDetailsIOReq"/>
+     <wsdl:output message="tns:AuthorizeCheckDetailsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckDetailsFS">
+     <wsdl:input message="tns:AuthorizeCheckDetailsFSReq"/>
+     <wsdl:output message="tns:AuthorizeCheckDetailsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeChqArchivalIO">
+     <wsdl:input message="tns:AuthorizeChqArchivalIOReq"/>
+     <wsdl:output message="tns:AuthorizeChqArchivalPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeChqArchivalFS">
+     <wsdl:input message="tns:AuthorizeChqArchivalFSReq"/>
+     <wsdl:output message="tns:AuthorizeChqArchivalFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCustAccIO">
+     <wsdl:input message="tns:AuthorizeCustAccIOReq"/>
+     <wsdl:output message="tns:AuthorizeCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCustAccFS">
+     <wsdl:input message="tns:AuthorizeCustAccFSReq"/>
+     <wsdl:output message="tns:AuthorizeCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeStopPaymentsIO">
+     <wsdl:input message="tns:AuthorizeStopPaymentsIOReq"/>
+     <wsdl:output message="tns:AuthorizeStopPaymentsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeStopPaymentsFS">
+     <wsdl:input message="tns:AuthorizeStopPaymentsFSReq"/>
+     <wsdl:output message="tns:AuthorizeStopPaymentsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDCustAccIO">
+     <wsdl:input message="tns:AuthorizeTDCustAccIOReq"/>
+     <wsdl:output message="tns:AuthorizeTDCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDCustAccFS">
+     <wsdl:input message="tns:AuthorizeTDCustAccFSReq"/>
+     <wsdl:output message="tns:AuthorizeTDCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDTopUpIO">
+     <wsdl:input message="tns:AuthorizeTDTopUpIOReq"/>
+     <wsdl:output message="tns:AuthorizeTDTopUpPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDTopUpFS">
+     <wsdl:input message="tns:AuthorizeTDTopUpFSReq"/>
+     <wsdl:output message="tns:AuthorizeTDTopUpFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackDeleteIO">
+     <wsdl:input message="tns:AuthorizeTrackDeleteIOReq"/>
+     <wsdl:output message="tns:AuthorizeTrackDeletePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackDeleteFS">
+     <wsdl:input message="tns:AuthorizeTrackDeleteFSReq"/>
+     <wsdl:output message="tns:AuthorizeTrackDeleteFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackReleaseIO">
+     <wsdl:input message="tns:AuthorizeTrackReleaseIOReq"/>
+     <wsdl:output message="tns:AuthorizeTrackReleasePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackReleaseFS">
+     <wsdl:input message="tns:AuthorizeTrackReleaseFSReq"/>
+     <wsdl:output message="tns:AuthorizeTrackReleaseFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeVirAccIO">
+     <wsdl:input message="tns:AuthorizeVirAccIOReq"/>
+     <wsdl:output message="tns:AuthorizeVirAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeVirAccFS">
+     <wsdl:input message="tns:AuthorizeVirAccFSReq"/>
+     <wsdl:output message="tns:AuthorizeVirAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseAutoDepInsIO">
+     <wsdl:input message="tns:CloseAutoDepInsIOReq"/>
+     <wsdl:output message="tns:CloseAutoDepInsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseAutoDepInsFS">
+     <wsdl:input message="tns:CloseAutoDepInsFSReq"/>
+     <wsdl:output message="tns:CloseAutoDepInsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCbStmtIO">
+     <wsdl:input message="tns:CloseCbStmtIOReq"/>
+     <wsdl:output message="tns:CloseCbStmtPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCbStmtFS">
+     <wsdl:input message="tns:CloseCbStmtFSReq"/>
+     <wsdl:output message="tns:CloseCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCheckBookIO">
+     <wsdl:input message="tns:CloseCheckBookIOReq"/>
+     <wsdl:output message="tns:CloseCheckBookPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCheckBookFS">
+     <wsdl:input message="tns:CloseCheckBookFSReq"/>
+     <wsdl:output message="tns:CloseCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCustAccIO">
+     <wsdl:input message="tns:CloseCustAccIOReq"/>
+     <wsdl:output message="tns:CloseCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCustAccFS">
+     <wsdl:input message="tns:CloseCustAccFSReq"/>
+     <wsdl:output message="tns:CloseCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseStopPaymentsIO">
+     <wsdl:input message="tns:CloseStopPaymentsIOReq"/>
+     <wsdl:output message="tns:CloseStopPaymentsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseStopPaymentsFS">
+     <wsdl:input message="tns:CloseStopPaymentsFSReq"/>
+     <wsdl:output message="tns:CloseStopPaymentsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseVirAccIO">
+     <wsdl:input message="tns:CloseVirAccIOReq"/>
+     <wsdl:output message="tns:CloseVirAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CloseVirAccFS">
+     <wsdl:input message="tns:CloseVirAccFSReq"/>
+     <wsdl:output message="tns:CloseVirAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAcClassTfrIO">
+     <wsdl:input message="tns:CreateAcClassTfrIOReq"/>
+     <wsdl:output message="tns:CreateAcClassTfrPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAcClassTfrFS">
+     <wsdl:input message="tns:CreateAcClassTfrFSReq"/>
+     <wsdl:output message="tns:CreateAcClassTfrFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAutoDepInsIO">
+     <wsdl:input message="tns:CreateAutoDepInsIOReq"/>
+     <wsdl:output message="tns:CreateAutoDepInsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAutoDepInsFS">
+     <wsdl:input message="tns:CreateAutoDepInsFSReq"/>
+     <wsdl:output message="tns:CreateAutoDepInsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCbStmtIO">
+     <wsdl:input message="tns:CreateCbStmtIOReq"/>
+     <wsdl:output message="tns:CreateCbStmtPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCbStmtFS">
+     <wsdl:input message="tns:CreateCbStmtFSReq"/>
+     <wsdl:output message="tns:CreateCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCheckBookIO">
+     <wsdl:input message="tns:CreateCheckBookIOReq"/>
+     <wsdl:output message="tns:CreateCheckBookPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCheckBookFS">
+     <wsdl:input message="tns:CreateCheckBookFSReq"/>
+     <wsdl:output message="tns:CreateCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateChqArchivalIO">
+     <wsdl:input message="tns:CreateChqArchivalIOReq"/>
+     <wsdl:output message="tns:CreateChqArchivalPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateChqArchivalFS">
+     <wsdl:input message="tns:CreateChqArchivalFSReq"/>
+     <wsdl:output message="tns:CreateChqArchivalFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCustAccIO">
+     <wsdl:input message="tns:CreateCustAccIOReq"/>
+     <wsdl:output message="tns:CreateCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCustAccFS">
+     <wsdl:input message="tns:CreateCustAccFSReq"/>
+     <wsdl:output message="tns:CreateCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateStopPaymentsIO">
+     <wsdl:input message="tns:CreateStopPaymentsIOReq"/>
+     <wsdl:output message="tns:CreateStopPaymentsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateStopPaymentsFS">
+     <wsdl:input message="tns:CreateStopPaymentsFSReq"/>
+     <wsdl:output message="tns:CreateStopPaymentsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDCustAccIO">
+     <wsdl:input message="tns:CreateTDCustAccIOReq"/>
+     <wsdl:output message="tns:CreateTDCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDCustAccFS">
+     <wsdl:input message="tns:CreateTDCustAccFSReq"/>
+     <wsdl:output message="tns:CreateTDCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDSimIO">
+     <wsdl:input message="tns:CreateTDSimIOReq"/>
+     <wsdl:output message="tns:CreateTDSimPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDSimFS">
+     <wsdl:input message="tns:CreateTDSimFSReq"/>
+     <wsdl:output message="tns:CreateTDSimFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDTopUpIO">
+     <wsdl:input message="tns:CreateTDTopUpIOReq"/>
+     <wsdl:output message="tns:CreateTDTopUpPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDTopUpFS">
+     <wsdl:input message="tns:CreateTDTopUpFSReq"/>
+     <wsdl:output message="tns:CreateTDTopUpFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackDeleteIO">
+     <wsdl:input message="tns:CreateTrackDeleteIOReq"/>
+     <wsdl:output message="tns:CreateTrackDeletePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackDeleteFS">
+     <wsdl:input message="tns:CreateTrackDeleteFSReq"/>
+     <wsdl:output message="tns:CreateTrackDeleteFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackReleaseIO">
+     <wsdl:input message="tns:CreateTrackReleaseIOReq"/>
+     <wsdl:output message="tns:CreateTrackReleasePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackReleaseFS">
+     <wsdl:input message="tns:CreateTrackReleaseFSReq"/>
+     <wsdl:output message="tns:CreateTrackReleaseFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateVirAccIO">
+     <wsdl:input message="tns:CreateVirAccIOReq"/>
+     <wsdl:output message="tns:CreateVirAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="CreateVirAccFS">
+     <wsdl:input message="tns:CreateVirAccFSReq"/>
+     <wsdl:output message="tns:CreateVirAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAcClassTfrIO">
+     <wsdl:input message="tns:DeleteAcClassTfrIOReq"/>
+     <wsdl:output message="tns:DeleteAcClassTfrPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAcClassTfrFS">
+     <wsdl:input message="tns:DeleteAcClassTfrFSReq"/>
+     <wsdl:output message="tns:DeleteAcClassTfrFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAutoDepInsIO">
+     <wsdl:input message="tns:DeleteAutoDepInsIOReq"/>
+     <wsdl:output message="tns:DeleteAutoDepInsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAutoDepInsFS">
+     <wsdl:input message="tns:DeleteAutoDepInsFSReq"/>
+     <wsdl:output message="tns:DeleteAutoDepInsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCbStmtIO">
+     <wsdl:input message="tns:DeleteCbStmtIOReq"/>
+     <wsdl:output message="tns:DeleteCbStmtPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCbStmtFS">
+     <wsdl:input message="tns:DeleteCbStmtFSReq"/>
+     <wsdl:output message="tns:DeleteCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCheckBookIO">
+     <wsdl:input message="tns:DeleteCheckBookIOReq"/>
+     <wsdl:output message="tns:DeleteCheckBookPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCheckBookFS">
+     <wsdl:input message="tns:DeleteCheckBookFSReq"/>
+     <wsdl:output message="tns:DeleteCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteChqArchivalIO">
+     <wsdl:input message="tns:DeleteChqArchivalIOReq"/>
+     <wsdl:output message="tns:DeleteChqArchivalPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteChqArchivalFS">
+     <wsdl:input message="tns:DeleteChqArchivalFSReq"/>
+     <wsdl:output message="tns:DeleteChqArchivalFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCustAccIO">
+     <wsdl:input message="tns:DeleteCustAccIOReq"/>
+     <wsdl:output message="tns:DeleteCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCustAccFS">
+     <wsdl:input message="tns:DeleteCustAccFSReq"/>
+     <wsdl:output message="tns:DeleteCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteStopPaymentsIO">
+     <wsdl:input message="tns:DeleteStopPaymentsIOReq"/>
+     <wsdl:output message="tns:DeleteStopPaymentsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteStopPaymentsFS">
+     <wsdl:input message="tns:DeleteStopPaymentsFSReq"/>
+     <wsdl:output message="tns:DeleteStopPaymentsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDCustAccIO">
+     <wsdl:input message="tns:DeleteTDCustAccIOReq"/>
+     <wsdl:output message="tns:DeleteTDCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDCustAccFS">
+     <wsdl:input message="tns:DeleteTDCustAccFSReq"/>
+     <wsdl:output message="tns:DeleteTDCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDTopUpIO">
+     <wsdl:input message="tns:DeleteTDTopUpIOReq"/>
+     <wsdl:output message="tns:DeleteTDTopUpPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDTopUpFS">
+     <wsdl:input message="tns:DeleteTDTopUpFSReq"/>
+     <wsdl:output message="tns:DeleteTDTopUpFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackDeleteIO">
+     <wsdl:input message="tns:DeleteTrackDeleteIOReq"/>
+     <wsdl:output message="tns:DeleteTrackDeletePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackDeleteFS">
+     <wsdl:input message="tns:DeleteTrackDeleteFSReq"/>
+     <wsdl:output message="tns:DeleteTrackDeleteFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackReleaseIO">
+     <wsdl:input message="tns:DeleteTrackReleaseIOReq"/>
+     <wsdl:output message="tns:DeleteTrackReleasePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackReleaseFS">
+     <wsdl:input message="tns:DeleteTrackReleaseFSReq"/>
+     <wsdl:output message="tns:DeleteTrackReleaseFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteVirAccIO">
+     <wsdl:input message="tns:DeleteVirAccIOReq"/>
+     <wsdl:output message="tns:DeleteVirAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteVirAccFS">
+     <wsdl:input message="tns:DeleteVirAccFSReq"/>
+     <wsdl:output message="tns:DeleteVirAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAcClassTfrIO">
+     <wsdl:input message="tns:ModifyAcClassTfrIOReq"/>
+     <wsdl:output message="tns:ModifyAcClassTfrPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAcClassTfrFS">
+     <wsdl:input message="tns:ModifyAcClassTfrFSReq"/>
+     <wsdl:output message="tns:ModifyAcClassTfrFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAutoDepInsIO">
+     <wsdl:input message="tns:ModifyAutoDepInsIOReq"/>
+     <wsdl:output message="tns:ModifyAutoDepInsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAutoDepInsFS">
+     <wsdl:input message="tns:ModifyAutoDepInsFSReq"/>
+     <wsdl:output message="tns:ModifyAutoDepInsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCbStmtIO">
+     <wsdl:input message="tns:ModifyCbStmtIOReq"/>
+     <wsdl:output message="tns:ModifyCbStmtPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCbStmtFS">
+     <wsdl:input message="tns:ModifyCbStmtFSReq"/>
+     <wsdl:output message="tns:ModifyCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckBookIO">
+     <wsdl:input message="tns:ModifyCheckBookIOReq"/>
+     <wsdl:output message="tns:ModifyCheckBookPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckBookFS">
+     <wsdl:input message="tns:ModifyCheckBookFSReq"/>
+     <wsdl:output message="tns:ModifyCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckDetailsIO">
+     <wsdl:input message="tns:ModifyCheckDetailsIOReq"/>
+     <wsdl:output message="tns:ModifyCheckDetailsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckDetailsFS">
+     <wsdl:input message="tns:ModifyCheckDetailsFSReq"/>
+     <wsdl:output message="tns:ModifyCheckDetailsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyChqArchivalIO">
+     <wsdl:input message="tns:ModifyChqArchivalIOReq"/>
+     <wsdl:output message="tns:ModifyChqArchivalPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyChqArchivalFS">
+     <wsdl:input message="tns:ModifyChqArchivalFSReq"/>
+     <wsdl:output message="tns:ModifyChqArchivalFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCustAccIO">
+     <wsdl:input message="tns:ModifyCustAccIOReq"/>
+     <wsdl:output message="tns:ModifyCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCustAccFS">
+     <wsdl:input message="tns:ModifyCustAccFSReq"/>
+     <wsdl:output message="tns:ModifyCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyStopPaymentsIO">
+     <wsdl:input message="tns:ModifyStopPaymentsIOReq"/>
+     <wsdl:output message="tns:ModifyStopPaymentsPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyStopPaymentsFS">
+     <wsdl:input message="tns:ModifyStopPaymentsFSReq"/>
+     <wsdl:output message="tns:ModifyStopPaymentsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDCustAccIO">
+     <wsdl:input message="tns:ModifyTDCustAccIOReq"/>
+     <wsdl:output message="tns:ModifyTDCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDCustAccFS">
+     <wsdl:input message="tns:ModifyTDCustAccFSReq"/>
+     <wsdl:output message="tns:ModifyTDCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDTopUpIO">
+     <wsdl:input message="tns:ModifyTDTopUpIOReq"/>
+     <wsdl:output message="tns:ModifyTDTopUpPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDTopUpFS">
+     <wsdl:input message="tns:ModifyTDTopUpFSReq"/>
+     <wsdl:output message="tns:ModifyTDTopUpFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackDeleteIO">
+     <wsdl:input message="tns:ModifyTrackDeleteIOReq"/>
+     <wsdl:output message="tns:ModifyTrackDeletePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackDeleteFS">
+     <wsdl:input message="tns:ModifyTrackDeleteFSReq"/>
+     <wsdl:output message="tns:ModifyTrackDeleteFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackReleaseIO">
+     <wsdl:input message="tns:ModifyTrackReleaseIOReq"/>
+     <wsdl:output message="tns:ModifyTrackReleasePKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackReleaseFS">
+     <wsdl:input message="tns:ModifyTrackReleaseFSReq"/>
+     <wsdl:output message="tns:ModifyTrackReleaseFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyVirAccIO">
+     <wsdl:input message="tns:ModifyVirAccIOReq"/>
+     <wsdl:output message="tns:ModifyVirAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyVirAccFS">
+     <wsdl:input message="tns:ModifyVirAccFSReq"/>
+     <wsdl:output message="tns:ModifyVirAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAcClassTfrIO">
+     <wsdl:input message="tns:QueryAcClassTfrIOReq"/>
+     <wsdl:output message="tns:QueryAcClassTfrFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAccBalIO">
+     <wsdl:input message="tns:QueryAccBalIOReq"/>
+     <wsdl:output message="tns:QueryAccBalFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAccSummIO">
+     <wsdl:input message="tns:QueryAccSummIOReq"/>
+     <wsdl:output message="tns:QueryAccSummFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAutoDepInsIO">
+     <wsdl:input message="tns:QueryAutoDepInsIOReq"/>
+     <wsdl:output message="tns:QueryAutoDepInsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCbStmtIO">
+     <wsdl:input message="tns:QueryCbStmtIOReq"/>
+     <wsdl:output message="tns:QueryCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCheckBookIO">
+     <wsdl:input message="tns:QueryCheckBookIOReq"/>
+     <wsdl:output message="tns:QueryCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCheckDetailsIO">
+     <wsdl:input message="tns:QueryCheckDetailsIOReq"/>
+     <wsdl:output message="tns:QueryCheckDetailsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryChqArchivalIO">
+     <wsdl:input message="tns:QueryChqArchivalIOReq"/>
+     <wsdl:output message="tns:QueryChqArchivalFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCloseNotifiIO">
+     <wsdl:input message="tns:QueryCloseNotifiIOReq"/>
+     <wsdl:output message="tns:QueryCloseNotifiFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCustAccIO">
+     <wsdl:input message="tns:QueryCustAccIOReq"/>
+     <wsdl:output message="tns:QueryCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCustAccBalanceIO">
+     <wsdl:input message="tns:QueryCustAccBalanceIOReq"/>
+     <wsdl:output message="tns:QueryCustAccBalanceFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryGenAdviceIO">
+     <wsdl:input message="tns:QueryGenAdviceIOReq"/>
+     <wsdl:output message="tns:QueryGenAdviceFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryNoactivityNotifiIO">
+     <wsdl:input message="tns:QueryNoactivityNotifiIOReq"/>
+     <wsdl:output message="tns:QueryNoactivityNotifiFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryStopPaymentsIO">
+     <wsdl:input message="tns:QueryStopPaymentsIOReq"/>
+     <wsdl:output message="tns:QueryStopPaymentsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTDCustAccIO">
+     <wsdl:input message="tns:QueryTDCustAccIOReq"/>
+     <wsdl:output message="tns:QueryTDCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTDCustAccSimIO">
+     <wsdl:input message="tns:QueryTDCustAccSimIOReq"/>
+     <wsdl:output message="tns:QueryTDCustAccSimFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTDTopUpIO">
+     <wsdl:input message="tns:QueryTDTopUpIOReq"/>
+     <wsdl:output message="tns:QueryTDTopUpFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTopUpSimIO">
+     <wsdl:input message="tns:QueryTopUpSimIOReq"/>
+     <wsdl:output message="tns:QueryTopUpSimFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTopupNotifiIO">
+     <wsdl:input message="tns:QueryTopupNotifiIOReq"/>
+     <wsdl:output message="tns:QueryTopupNotifiFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTrackDeleteIO">
+     <wsdl:input message="tns:QueryTrackDeleteIOReq"/>
+     <wsdl:output message="tns:QueryTrackDeleteFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTrackReleaseIO">
+     <wsdl:input message="tns:QueryTrackReleaseIOReq"/>
+     <wsdl:output message="tns:QueryTrackReleaseFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QueryVirAccIO">
+     <wsdl:input message="tns:QueryVirAccIOReq"/>
+     <wsdl:output message="tns:QueryVirAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="QuerycustAccountDetailsIO">
+     <wsdl:input message="tns:QuerycustAccountDetailsIOReq"/>
+     <wsdl:output message="tns:QuerycustAccountDetailsFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCbStmtIO">
+     <wsdl:input message="tns:ReopenCbStmtIOReq"/>
+     <wsdl:output message="tns:ReopenCbStmtPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCbStmtFS">
+     <wsdl:input message="tns:ReopenCbStmtFSReq"/>
+     <wsdl:output message="tns:ReopenCbStmtFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCheckBookIO">
+     <wsdl:input message="tns:ReopenCheckBookIOReq"/>
+     <wsdl:output message="tns:ReopenCheckBookPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCheckBookFS">
+     <wsdl:input message="tns:ReopenCheckBookFSReq"/>
+     <wsdl:output message="tns:ReopenCheckBookFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCustAccIO">
+     <wsdl:input message="tns:ReopenCustAccIOReq"/>
+     <wsdl:output message="tns:ReopenCustAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCustAccFS">
+     <wsdl:input message="tns:ReopenCustAccFSReq"/>
+     <wsdl:output message="tns:ReopenCustAccFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenVirAccIO">
+     <wsdl:input message="tns:ReopenVirAccIOReq"/>
+     <wsdl:output message="tns:ReopenVirAccPKRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenVirAccFS">
+     <wsdl:input message="tns:ReopenVirAccFSReq"/>
+     <wsdl:output message="tns:ReopenVirAccFSRes"/>
+  </wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="FCUBSAccService" type="tns:FCUBSAccServiceSEI">
+<wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <wsdl:operation name="AuthorizeAcClassTfrFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeAcClassTfrIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeAutoDepInsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeAutoDepInsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCbStmtFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckBookFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckDetailsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCheckDetailsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeChqArchivalFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeChqArchivalIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeStopPaymentsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeStopPaymentsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDTopUpFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTDTopUpIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackDeleteFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackDeleteIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackReleaseFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeTrackReleaseIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeVirAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="AuthorizeVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseAutoDepInsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseAutoDepInsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCbStmtFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCheckBookFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseStopPaymentsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseStopPaymentsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseVirAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CloseVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAcClassTfrFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAcClassTfrIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAutoDepInsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateAutoDepInsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCbStmtFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCheckBookFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateChqArchivalFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateChqArchivalIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateStopPaymentsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateStopPaymentsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDSimFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDSimIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDTopUpFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTDTopUpIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackDeleteFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackDeleteIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackReleaseFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateTrackReleaseIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateVirAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="CreateVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAcClassTfrFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAcClassTfrIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAutoDepInsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteAutoDepInsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCbStmtFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCheckBookFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteChqArchivalFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteChqArchivalIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteStopPaymentsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteStopPaymentsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDTopUpFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTDTopUpIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackDeleteFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackDeleteIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackReleaseFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteTrackReleaseIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteVirAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="DeleteVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAcClassTfrFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAcClassTfrIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAutoDepInsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyAutoDepInsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCbStmtFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckBookFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckDetailsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCheckDetailsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyChqArchivalFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyChqArchivalIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyStopPaymentsFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyStopPaymentsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDTopUpFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTDTopUpIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackDeleteFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackDeleteIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackReleaseFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyTrackReleaseIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyVirAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ModifyVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAcClassTfrIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAccBalIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAccSummIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryAutoDepInsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCheckDetailsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryChqArchivalIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCloseNotifiIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryCustAccBalanceIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryGenAdviceIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryNoactivityNotifiIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryStopPaymentsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTDCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTDCustAccSimIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTDTopUpIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTopUpSimIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTopupNotifiIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTrackDeleteIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryTrackReleaseIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QueryVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="QuerycustAccountDetailsIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCbStmtFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCbStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCheckBookFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCheckBookIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCustAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenCustAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenVirAccFS">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="ReopenVirAccIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+</wsdl:binding>
+   <wsdl:service name="FCUBSAccService">
+       <wsdl:port binding="tns:FCUBSAccService" name="FCUBSAccServiceSEI">
+           <wsdlsoap:address location="http://localhost:9080/FCUBSAccService/services/FCUBSAccService"/>
+       </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

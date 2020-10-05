@@ -1,0 +1,1327 @@
+
+
+Importing file: E:\IBM_ACE\Projects\Dashen\Docs & Refs\Requirements\FLEXCUBE 12.2 WSDL\FCUBSAccService.wsdl
+
+
+The following is a list of WS-I warning messages found when importing:
+XSD: The location '../XSD/ST-AuthorizeAcClassTfr-Req-Full-MSG.xsd' has not been resolved, Line: 12, Column: 6
+XSD: The location '../XSD/ST-AuthorizeAcClassTfr-Res-Full-MSG.xsd' has not been resolved, Line: 16, Column: 6
+XSD: The location '../XSD/ST-AuthorizeAcClassTfr-Req-IO-MSG.xsd' has not been resolved, Line: 20, Column: 6
+XSD: The location '../XSD/ST-AuthorizeAcClassTfr-Res-PK-MSG.xsd' has not been resolved, Line: 24, Column: 6
+XSD: The location '../XSD/IC-AuthorizeAutoDepIns-Req-Full-MSG.xsd' has not been resolved, Line: 28, Column: 6
+XSD: The location '../XSD/IC-AuthorizeAutoDepIns-Res-Full-MSG.xsd' has not been resolved, Line: 32, Column: 6
+XSD: The location '../XSD/IC-AuthorizeAutoDepIns-Req-IO-MSG.xsd' has not been resolved, Line: 36, Column: 6
+XSD: The location '../XSD/IC-AuthorizeAutoDepIns-Res-PK-MSG.xsd' has not been resolved, Line: 40, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCbStmt-Req-Full-MSG.xsd' has not been resolved, Line: 44, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 48, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 52, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCbStmt-Res-PK-MSG.xsd' has not been resolved, Line: 56, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckBook-Req-Full-MSG.xsd' has not been resolved, Line: 60, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 64, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 68, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckBook-Res-PK-MSG.xsd' has not been resolved, Line: 72, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckDetails-Req-Full-MSG.xsd' has not been resolved, Line: 76, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckDetails-Res-Full-MSG.xsd' has not been resolved, Line: 80, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckDetails-Req-IO-MSG.xsd' has not been resolved, Line: 84, Column: 6
+XSD: The location '../XSD/CA-AuthorizeCheckDetails-Res-PK-MSG.xsd' has not been resolved, Line: 88, Column: 6
+XSD: The location '../XSD/CA-AuthorizeChqArchival-Req-Full-MSG.xsd' has not been resolved, Line: 92, Column: 6
+XSD: The location '../XSD/CA-AuthorizeChqArchival-Res-Full-MSG.xsd' has not been resolved, Line: 96, Column: 6
+XSD: The location '../XSD/CA-AuthorizeChqArchival-Req-IO-MSG.xsd' has not been resolved, Line: 100, Column: 6
+XSD: The location '../XSD/CA-AuthorizeChqArchival-Res-PK-MSG.xsd' has not been resolved, Line: 104, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 108, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 112, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 116, Column: 6
+XSD: The location '../XSD/ST-AuthorizeCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 120, Column: 6
+XSD: The location '../XSD/CA-AuthorizeStopPayments-Req-Full-MSG.xsd' has not been resolved, Line: 124, Column: 6
+XSD: The location '../XSD/CA-AuthorizeStopPayments-Res-Full-MSG.xsd' has not been resolved, Line: 128, Column: 6
+XSD: The location '../XSD/CA-AuthorizeStopPayments-Req-IO-MSG.xsd' has not been resolved, Line: 132, Column: 6
+XSD: The location '../XSD/CA-AuthorizeStopPayments-Res-PK-MSG.xsd' has not been resolved, Line: 136, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 140, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 144, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 148, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 152, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDTopUp-Req-Full-MSG.xsd' has not been resolved, Line: 156, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDTopUp-Res-Full-MSG.xsd' has not been resolved, Line: 160, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDTopUp-Req-IO-MSG.xsd' has not been resolved, Line: 164, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTDTopUp-Res-PK-MSG.xsd' has not been resolved, Line: 168, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackDelete-Req-Full-MSG.xsd' has not been resolved, Line: 172, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackDelete-Res-Full-MSG.xsd' has not been resolved, Line: 176, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackDelete-Req-IO-MSG.xsd' has not been resolved, Line: 180, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackDelete-Res-PK-MSG.xsd' has not been resolved, Line: 184, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackRelease-Req-Full-MSG.xsd' has not been resolved, Line: 188, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackRelease-Res-Full-MSG.xsd' has not been resolved, Line: 192, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackRelease-Req-IO-MSG.xsd' has not been resolved, Line: 196, Column: 6
+XSD: The location '../XSD/ST-AuthorizeTrackRelease-Res-PK-MSG.xsd' has not been resolved, Line: 200, Column: 6
+XSD: The location '../XSD/ST-AuthorizeVirAcc-Req-Full-MSG.xsd' has not been resolved, Line: 204, Column: 6
+XSD: The location '../XSD/ST-AuthorizeVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 208, Column: 6
+XSD: The location '../XSD/ST-AuthorizeVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 212, Column: 6
+XSD: The location '../XSD/ST-AuthorizeVirAcc-Res-PK-MSG.xsd' has not been resolved, Line: 216, Column: 6
+XSD: The location '../XSD/IC-CloseAutoDepIns-Req-Full-MSG.xsd' has not been resolved, Line: 220, Column: 6
+XSD: The location '../XSD/IC-CloseAutoDepIns-Res-Full-MSG.xsd' has not been resolved, Line: 224, Column: 6
+XSD: The location '../XSD/IC-CloseAutoDepIns-Req-IO-MSG.xsd' has not been resolved, Line: 228, Column: 6
+XSD: The location '../XSD/IC-CloseAutoDepIns-Res-PK-MSG.xsd' has not been resolved, Line: 232, Column: 6
+XSD: The location '../XSD/ST-CloseCbStmt-Req-Full-MSG.xsd' has not been resolved, Line: 236, Column: 6
+XSD: The location '../XSD/ST-CloseCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 240, Column: 6
+XSD: The location '../XSD/ST-CloseCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 244, Column: 6
+XSD: The location '../XSD/ST-CloseCbStmt-Res-PK-MSG.xsd' has not been resolved, Line: 248, Column: 6
+XSD: The location '../XSD/CA-CloseCheckBook-Req-Full-MSG.xsd' has not been resolved, Line: 252, Column: 6
+XSD: The location '../XSD/CA-CloseCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 256, Column: 6
+XSD: The location '../XSD/CA-CloseCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 260, Column: 6
+XSD: The location '../XSD/CA-CloseCheckBook-Res-PK-MSG.xsd' has not been resolved, Line: 264, Column: 6
+XSD: The location '../XSD/ST-CloseCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 268, Column: 6
+XSD: The location '../XSD/ST-CloseCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 272, Column: 6
+XSD: The location '../XSD/ST-CloseCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 276, Column: 6
+XSD: The location '../XSD/ST-CloseCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 280, Column: 6
+XSD: The location '../XSD/CA-CloseStopPayments-Req-Full-MSG.xsd' has not been resolved, Line: 284, Column: 6
+XSD: The location '../XSD/CA-CloseStopPayments-Res-Full-MSG.xsd' has not been resolved, Line: 288, Column: 6
+XSD: The location '../XSD/CA-CloseStopPayments-Req-IO-MSG.xsd' has not been resolved, Line: 292, Column: 6
+XSD: The location '../XSD/CA-CloseStopPayments-Res-PK-MSG.xsd' has not been resolved, Line: 296, Column: 6
+XSD: The location '../XSD/ST-CloseVirAcc-Req-Full-MSG.xsd' has not been resolved, Line: 300, Column: 6
+XSD: The location '../XSD/ST-CloseVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 304, Column: 6
+XSD: The location '../XSD/ST-CloseVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 308, Column: 6
+XSD: The location '../XSD/ST-CloseVirAcc-Res-PK-MSG.xsd' has not been resolved, Line: 312, Column: 6
+XSD: The location '../XSD/ST-CreateAcClassTfr-Req-Full-MSG.xsd' has not been resolved, Line: 316, Column: 6
+XSD: The location '../XSD/ST-CreateAcClassTfr-Res-Full-MSG.xsd' has not been resolved, Line: 320, Column: 6
+XSD: The location '../XSD/ST-CreateAcClassTfr-Req-IO-MSG.xsd' has not been resolved, Line: 324, Column: 6
+XSD: The location '../XSD/ST-CreateAcClassTfr-Res-PK-MSG.xsd' has not been resolved, Line: 328, Column: 6
+XSD: The location '../XSD/IC-CreateAutoDepIns-Req-Full-MSG.xsd' has not been resolved, Line: 332, Column: 6
+XSD: The location '../XSD/IC-CreateAutoDepIns-Res-Full-MSG.xsd' has not been resolved, Line: 336, Column: 6
+XSD: The location '../XSD/IC-CreateAutoDepIns-Req-IO-MSG.xsd' has not been resolved, Line: 340, Column: 6
+XSD: The location '../XSD/IC-CreateAutoDepIns-Res-PK-MSG.xsd' has not been resolved, Line: 344, Column: 6
+XSD: The location '../XSD/ST-CreateCbStmt-Req-Full-MSG.xsd' has not been resolved, Line: 348, Column: 6
+XSD: The location '../XSD/ST-CreateCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 352, Column: 6
+XSD: The location '../XSD/ST-CreateCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 356, Column: 6
+XSD: The location '../XSD/ST-CreateCbStmt-Res-PK-MSG.xsd' has not been resolved, Line: 360, Column: 6
+XSD: The location '../XSD/CA-CreateCheckBook-Req-Full-MSG.xsd' has not been resolved, Line: 364, Column: 6
+XSD: The location '../XSD/CA-CreateCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 368, Column: 6
+XSD: The location '../XSD/CA-CreateCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 372, Column: 6
+XSD: The location '../XSD/CA-CreateCheckBook-Res-PK-MSG.xsd' has not been resolved, Line: 376, Column: 6
+XSD: The location '../XSD/CA-CreateChqArchival-Req-Full-MSG.xsd' has not been resolved, Line: 380, Column: 6
+XSD: The location '../XSD/CA-CreateChqArchival-Res-Full-MSG.xsd' has not been resolved, Line: 384, Column: 6
+XSD: The location '../XSD/CA-CreateChqArchival-Req-IO-MSG.xsd' has not been resolved, Line: 388, Column: 6
+XSD: The location '../XSD/CA-CreateChqArchival-Res-PK-MSG.xsd' has not been resolved, Line: 392, Column: 6
+XSD: The location '../XSD/ST-CreateCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 396, Column: 6
+XSD: The location '../XSD/ST-CreateCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 400, Column: 6
+XSD: The location '../XSD/ST-CreateCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 404, Column: 6
+XSD: The location '../XSD/ST-CreateCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 408, Column: 6
+XSD: The location '../XSD/CA-CreateStopPayments-Req-Full-MSG.xsd' has not been resolved, Line: 412, Column: 6
+XSD: The location '../XSD/CA-CreateStopPayments-Res-Full-MSG.xsd' has not been resolved, Line: 416, Column: 6
+XSD: The location '../XSD/CA-CreateStopPayments-Req-IO-MSG.xsd' has not been resolved, Line: 420, Column: 6
+XSD: The location '../XSD/CA-CreateStopPayments-Res-PK-MSG.xsd' has not been resolved, Line: 424, Column: 6
+XSD: The location '../XSD/ST-CreateTDCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 428, Column: 6
+XSD: The location '../XSD/ST-CreateTDCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 432, Column: 6
+XSD: The location '../XSD/ST-CreateTDCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 436, Column: 6
+XSD: The location '../XSD/ST-CreateTDCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 440, Column: 6
+XSD: The location '../XSD/TD-CreateTDSim-Req-Full-MSG.xsd' has not been resolved, Line: 444, Column: 6
+XSD: The location '../XSD/TD-CreateTDSim-Res-Full-MSG.xsd' has not been resolved, Line: 448, Column: 6
+XSD: The location '../XSD/TD-CreateTDSim-Req-IO-MSG.xsd' has not been resolved, Line: 452, Column: 6
+XSD: The location '../XSD/TD-CreateTDSim-Res-PK-MSG.xsd' has not been resolved, Line: 456, Column: 6
+XSD: The location '../XSD/ST-CreateTDTopUp-Req-Full-MSG.xsd' has not been resolved, Line: 460, Column: 6
+XSD: The location '../XSD/ST-CreateTDTopUp-Res-Full-MSG.xsd' has not been resolved, Line: 464, Column: 6
+XSD: The location '../XSD/ST-CreateTDTopUp-Req-IO-MSG.xsd' has not been resolved, Line: 468, Column: 6
+XSD: The location '../XSD/ST-CreateTDTopUp-Res-PK-MSG.xsd' has not been resolved, Line: 472, Column: 6
+XSD: The location '../XSD/ST-CreateTrackDelete-Req-Full-MSG.xsd' has not been resolved, Line: 476, Column: 6
+XSD: The location '../XSD/ST-CreateTrackDelete-Res-Full-MSG.xsd' has not been resolved, Line: 480, Column: 6
+XSD: The location '../XSD/ST-CreateTrackDelete-Req-IO-MSG.xsd' has not been resolved, Line: 484, Column: 6
+XSD: The location '../XSD/ST-CreateTrackDelete-Res-PK-MSG.xsd' has not been resolved, Line: 488, Column: 6
+XSD: The location '../XSD/ST-CreateTrackRelease-Req-Full-MSG.xsd' has not been resolved, Line: 492, Column: 6
+XSD: The location '../XSD/ST-CreateTrackRelease-Res-Full-MSG.xsd' has not been resolved, Line: 496, Column: 6
+XSD: The location '../XSD/ST-CreateTrackRelease-Req-IO-MSG.xsd' has not been resolved, Line: 500, Column: 6
+XSD: The location '../XSD/ST-CreateTrackRelease-Res-PK-MSG.xsd' has not been resolved, Line: 504, Column: 6
+XSD: The location '../XSD/ST-CreateVirAcc-Req-Full-MSG.xsd' has not been resolved, Line: 508, Column: 6
+XSD: The location '../XSD/ST-CreateVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 512, Column: 6
+XSD: The location '../XSD/ST-CreateVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 516, Column: 6
+XSD: The location '../XSD/ST-CreateVirAcc-Res-PK-MSG.xsd' has not been resolved, Line: 520, Column: 6
+XSD: The location '../XSD/ST-DeleteAcClassTfr-Req-Full-MSG.xsd' has not been resolved, Line: 524, Column: 6
+XSD: The location '../XSD/ST-DeleteAcClassTfr-Res-Full-MSG.xsd' has not been resolved, Line: 528, Column: 6
+XSD: The location '../XSD/ST-DeleteAcClassTfr-Req-IO-MSG.xsd' has not been resolved, Line: 532, Column: 6
+XSD: The location '../XSD/ST-DeleteAcClassTfr-Res-PK-MSG.xsd' has not been resolved, Line: 536, Column: 6
+XSD: The location '../XSD/IC-DeleteAutoDepIns-Req-Full-MSG.xsd' has not been resolved, Line: 540, Column: 6
+XSD: The location '../XSD/IC-DeleteAutoDepIns-Res-Full-MSG.xsd' has not been resolved, Line: 544, Column: 6
+XSD: The location '../XSD/IC-DeleteAutoDepIns-Req-IO-MSG.xsd' has not been resolved, Line: 548, Column: 6
+XSD: The location '../XSD/IC-DeleteAutoDepIns-Res-PK-MSG.xsd' has not been resolved, Line: 552, Column: 6
+XSD: The location '../XSD/ST-DeleteCbStmt-Req-Full-MSG.xsd' has not been resolved, Line: 556, Column: 6
+XSD: The location '../XSD/ST-DeleteCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 560, Column: 6
+XSD: The location '../XSD/ST-DeleteCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 564, Column: 6
+XSD: The location '../XSD/ST-DeleteCbStmt-Res-PK-MSG.xsd' has not been resolved, Line: 568, Column: 6
+XSD: The location '../XSD/CA-DeleteCheckBook-Req-Full-MSG.xsd' has not been resolved, Line: 572, Column: 6
+XSD: The location '../XSD/CA-DeleteCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 576, Column: 6
+XSD: The location '../XSD/CA-DeleteCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 580, Column: 6
+XSD: The location '../XSD/CA-DeleteCheckBook-Res-PK-MSG.xsd' has not been resolved, Line: 584, Column: 6
+XSD: The location '../XSD/CA-DeleteChqArchival-Req-Full-MSG.xsd' has not been resolved, Line: 588, Column: 6
+XSD: The location '../XSD/CA-DeleteChqArchival-Res-Full-MSG.xsd' has not been resolved, Line: 592, Column: 6
+XSD: The location '../XSD/CA-DeleteChqArchival-Req-IO-MSG.xsd' has not been resolved, Line: 596, Column: 6
+XSD: The location '../XSD/CA-DeleteChqArchival-Res-PK-MSG.xsd' has not been resolved, Line: 600, Column: 6
+XSD: The location '../XSD/ST-DeleteCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 604, Column: 6
+XSD: The location '../XSD/ST-DeleteCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 608, Column: 6
+XSD: The location '../XSD/ST-DeleteCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 612, Column: 6
+XSD: The location '../XSD/ST-DeleteCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 616, Column: 6
+XSD: The location '../XSD/CA-DeleteStopPayments-Req-Full-MSG.xsd' has not been resolved, Line: 620, Column: 6
+XSD: The location '../XSD/CA-DeleteStopPayments-Res-Full-MSG.xsd' has not been resolved, Line: 624, Column: 6
+XSD: The location '../XSD/CA-DeleteStopPayments-Req-IO-MSG.xsd' has not been resolved, Line: 628, Column: 6
+XSD: The location '../XSD/CA-DeleteStopPayments-Res-PK-MSG.xsd' has not been resolved, Line: 632, Column: 6
+XSD: The location '../XSD/ST-DeleteTDCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 636, Column: 6
+XSD: The location '../XSD/ST-DeleteTDCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 640, Column: 6
+XSD: The location '../XSD/ST-DeleteTDCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 644, Column: 6
+XSD: The location '../XSD/ST-DeleteTDCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 648, Column: 6
+XSD: The location '../XSD/ST-DeleteTDTopUp-Req-Full-MSG.xsd' has not been resolved, Line: 652, Column: 6
+XSD: The location '../XSD/ST-DeleteTDTopUp-Res-Full-MSG.xsd' has not been resolved, Line: 656, Column: 6
+XSD: The location '../XSD/ST-DeleteTDTopUp-Req-IO-MSG.xsd' has not been resolved, Line: 660, Column: 6
+XSD: The location '../XSD/ST-DeleteTDTopUp-Res-PK-MSG.xsd' has not been resolved, Line: 664, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackDelete-Req-Full-MSG.xsd' has not been resolved, Line: 668, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackDelete-Res-Full-MSG.xsd' has not been resolved, Line: 672, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackDelete-Req-IO-MSG.xsd' has not been resolved, Line: 676, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackDelete-Res-PK-MSG.xsd' has not been resolved, Line: 680, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackRelease-Req-Full-MSG.xsd' has not been resolved, Line: 684, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackRelease-Res-Full-MSG.xsd' has not been resolved, Line: 688, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackRelease-Req-IO-MSG.xsd' has not been resolved, Line: 692, Column: 6
+XSD: The location '../XSD/ST-DeleteTrackRelease-Res-PK-MSG.xsd' has not been resolved, Line: 696, Column: 6
+XSD: The location '../XSD/ST-DeleteVirAcc-Req-Full-MSG.xsd' has not been resolved, Line: 700, Column: 6
+XSD: The location '../XSD/ST-DeleteVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 704, Column: 6
+XSD: The location '../XSD/ST-DeleteVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 708, Column: 6
+XSD: The location '../XSD/ST-DeleteVirAcc-Res-PK-MSG.xsd' has not been resolved, Line: 712, Column: 6
+XSD: The location '../XSD/ST-ModifyAcClassTfr-Req-Full-MSG.xsd' has not been resolved, Line: 716, Column: 6
+XSD: The location '../XSD/ST-ModifyAcClassTfr-Res-Full-MSG.xsd' has not been resolved, Line: 720, Column: 6
+XSD: The location '../XSD/ST-ModifyAcClassTfr-Req-IO-MSG.xsd' has not been resolved, Line: 724, Column: 6
+XSD: The location '../XSD/ST-ModifyAcClassTfr-Res-PK-MSG.xsd' has not been resolved, Line: 728, Column: 6
+XSD: The location '../XSD/IC-ModifyAutoDepIns-Req-Full-MSG.xsd' has not been resolved, Line: 732, Column: 6
+XSD: The location '../XSD/IC-ModifyAutoDepIns-Res-Full-MSG.xsd' has not been resolved, Line: 736, Column: 6
+XSD: The location '../XSD/IC-ModifyAutoDepIns-Req-IO-MSG.xsd' has not been resolved, Line: 740, Column: 6
+XSD: The location '../XSD/IC-ModifyAutoDepIns-Res-PK-MSG.xsd' has not been resolved, Line: 744, Column: 6
+XSD: The location '../XSD/ST-ModifyCbStmt-Req-Full-MSG.xsd' has not been resolved, Line: 748, Column: 6
+XSD: The location '../XSD/ST-ModifyCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 752, Column: 6
+XSD: The location '../XSD/ST-ModifyCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 756, Column: 6
+XSD: The location '../XSD/ST-ModifyCbStmt-Res-PK-MSG.xsd' has not been resolved, Line: 760, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckBook-Req-Full-MSG.xsd' has not been resolved, Line: 764, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 768, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 772, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckBook-Res-PK-MSG.xsd' has not been resolved, Line: 776, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckDetails-Req-Full-MSG.xsd' has not been resolved, Line: 780, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckDetails-Res-Full-MSG.xsd' has not been resolved, Line: 784, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckDetails-Req-IO-MSG.xsd' has not been resolved, Line: 788, Column: 6
+XSD: The location '../XSD/CA-ModifyCheckDetails-Res-PK-MSG.xsd' has not been resolved, Line: 792, Column: 6
+XSD: The location '../XSD/CA-ModifyChqArchival-Req-Full-MSG.xsd' has not been resolved, Line: 796, Column: 6
+XSD: The location '../XSD/CA-ModifyChqArchival-Res-Full-MSG.xsd' has not been resolved, Line: 800, Column: 6
+XSD: The location '../XSD/CA-ModifyChqArchival-Req-IO-MSG.xsd' has not been resolved, Line: 804, Column: 6
+XSD: The location '../XSD/CA-ModifyChqArchival-Res-PK-MSG.xsd' has not been resolved, Line: 808, Column: 6
+XSD: The location '../XSD/ST-ModifyCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 812, Column: 6
+XSD: The location '../XSD/ST-ModifyCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 816, Column: 6
+XSD: The location '../XSD/ST-ModifyCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 820, Column: 6
+XSD: The location '../XSD/ST-ModifyCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 824, Column: 6
+XSD: The location '../XSD/CA-ModifyStopPayments-Req-Full-MSG.xsd' has not been resolved, Line: 828, Column: 6
+XSD: The location '../XSD/CA-ModifyStopPayments-Res-Full-MSG.xsd' has not been resolved, Line: 832, Column: 6
+XSD: The location '../XSD/CA-ModifyStopPayments-Req-IO-MSG.xsd' has not been resolved, Line: 836, Column: 6
+XSD: The location '../XSD/CA-ModifyStopPayments-Res-PK-MSG.xsd' has not been resolved, Line: 840, Column: 6
+XSD: The location '../XSD/ST-ModifyTDCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 844, Column: 6
+XSD: The location '../XSD/ST-ModifyTDCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 848, Column: 6
+XSD: The location '../XSD/ST-ModifyTDCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 852, Column: 6
+XSD: The location '../XSD/ST-ModifyTDCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 856, Column: 6
+XSD: The location '../XSD/ST-ModifyTDTopUp-Req-Full-MSG.xsd' has not been resolved, Line: 860, Column: 6
+XSD: The location '../XSD/ST-ModifyTDTopUp-Res-Full-MSG.xsd' has not been resolved, Line: 864, Column: 6
+XSD: The location '../XSD/ST-ModifyTDTopUp-Req-IO-MSG.xsd' has not been resolved, Line: 868, Column: 6
+XSD: The location '../XSD/ST-ModifyTDTopUp-Res-PK-MSG.xsd' has not been resolved, Line: 872, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackDelete-Req-Full-MSG.xsd' has not been resolved, Line: 876, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackDelete-Res-Full-MSG.xsd' has not been resolved, Line: 880, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackDelete-Req-IO-MSG.xsd' has not been resolved, Line: 884, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackDelete-Res-PK-MSG.xsd' has not been resolved, Line: 888, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackRelease-Req-Full-MSG.xsd' has not been resolved, Line: 892, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackRelease-Res-Full-MSG.xsd' has not been resolved, Line: 896, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackRelease-Req-IO-MSG.xsd' has not been resolved, Line: 900, Column: 6
+XSD: The location '../XSD/ST-ModifyTrackRelease-Res-PK-MSG.xsd' has not been resolved, Line: 904, Column: 6
+XSD: The location '../XSD/ST-ModifyVirAcc-Req-Full-MSG.xsd' has not been resolved, Line: 908, Column: 6
+XSD: The location '../XSD/ST-ModifyVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 912, Column: 6
+XSD: The location '../XSD/ST-ModifyVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 916, Column: 6
+XSD: The location '../XSD/ST-ModifyVirAcc-Res-PK-MSG.xsd' has not been resolved, Line: 920, Column: 6
+XSD: The location '../XSD/ST-QueryAcClassTfr-Res-Full-MSG.xsd' has not been resolved, Line: 924, Column: 6
+XSD: The location '../XSD/ST-QueryAcClassTfr-Req-IO-MSG.xsd' has not been resolved, Line: 928, Column: 6
+XSD: The location '../XSD/CA-CustAcc-Bal-Query-Res-MSG.xsd' has not been resolved, Line: 932, Column: 6
+XSD: The location '../XSD/CA-CustAcc-Bal-Query-Req-MSG.xsd' has not been resolved, Line: 936, Column: 6
+XSD: The location '../XSD/ST-QueryAccSumm-Res-Full-MSG.xsd' has not been resolved, Line: 940, Column: 6
+XSD: The location '../XSD/ST-QueryAccSumm-Req-IO-MSG.xsd' has not been resolved, Line: 944, Column: 6
+XSD: The location '../XSD/IC-QueryAutoDepIns-Res-Full-MSG.xsd' has not been resolved, Line: 948, Column: 6
+XSD: The location '../XSD/IC-QueryAutoDepIns-Req-IO-MSG.xsd' has not been resolved, Line: 952, Column: 6
+XSD: The location '../XSD/ST-QueryCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 956, Column: 6
+XSD: The location '../XSD/ST-QueryCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 960, Column: 6
+XSD: The location '../XSD/CA-QueryCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 964, Column: 6
+XSD: The location '../XSD/CA-QueryCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 968, Column: 6
+XSD: The location '../XSD/CA-QueryCheckDetails-Res-Full-MSG.xsd' has not been resolved, Line: 972, Column: 6
+XSD: The location '../XSD/CA-QueryCheckDetails-Req-IO-MSG.xsd' has not been resolved, Line: 976, Column: 6
+XSD: The location '../XSD/CA-QueryChqArchival-Res-Full-MSG.xsd' has not been resolved, Line: 980, Column: 6
+XSD: The location '../XSD/CA-QueryChqArchival-Req-IO-MSG.xsd' has not been resolved, Line: 984, Column: 6
+XSD: The location '../XSD/ST-QueryCloseNotifi-Res-Full-MSG.xsd' has not been resolved, Line: 988, Column: 6
+XSD: The location '../XSD/ST-QueryCloseNotifi-Req-IO-MSG.xsd' has not been resolved, Line: 992, Column: 6
+XSD: The location '../XSD/ST-QueryCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 996, Column: 6
+XSD: The location '../XSD/ST-QueryCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 1000, Column: 6
+XSD: The location '../XSD/AC-QueryCustAccBalance-Res-Full-MSG.xsd' has not been resolved, Line: 1004, Column: 6
+XSD: The location '../XSD/AC-QueryCustAccBalance-Req-IO-MSG.xsd' has not been resolved, Line: 1008, Column: 6
+XSD: The location '../XSD/TD-QueryGenAdvice-Res-Full-MSG.xsd' has not been resolved, Line: 1012, Column: 6
+XSD: The location '../XSD/TD-QueryGenAdvice-Req-IO-MSG.xsd' has not been resolved, Line: 1016, Column: 6
+XSD: The location '../XSD/ST-QueryNoactivityNotifi-Res-Full-MSG.xsd' has not been resolved, Line: 1020, Column: 6
+XSD: The location '../XSD/ST-QueryNoactivityNotifi-Req-IO-MSG.xsd' has not been resolved, Line: 1024, Column: 6
+XSD: The location '../XSD/CA-QueryStopPayments-Res-Full-MSG.xsd' has not been resolved, Line: 1028, Column: 6
+XSD: The location '../XSD/CA-QueryStopPayments-Req-IO-MSG.xsd' has not been resolved, Line: 1032, Column: 6
+XSD: The location '../XSD/ST-QueryTDCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 1036, Column: 6
+XSD: The location '../XSD/ST-QueryTDCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 1040, Column: 6
+XSD: The location '../XSD/ST-QueryTDCustAccSim-Res-Full-MSG.xsd' has not been resolved, Line: 1044, Column: 6
+XSD: The location '../XSD/ST-QueryTDCustAccSim-Req-IO-MSG.xsd' has not been resolved, Line: 1048, Column: 6
+XSD: The location '../XSD/ST-QueryTDTopUp-Res-Full-MSG.xsd' has not been resolved, Line: 1052, Column: 6
+XSD: The location '../XSD/ST-QueryTDTopUp-Req-IO-MSG.xsd' has not been resolved, Line: 1056, Column: 6
+XSD: The location '../XSD/ST-QueryTopUpSim-Res-Full-MSG.xsd' has not been resolved, Line: 1060, Column: 6
+XSD: The location '../XSD/ST-QueryTopUpSim-Req-IO-MSG.xsd' has not been resolved, Line: 1064, Column: 6
+XSD: The location '../XSD/ST-QueryTopupNotifi-Res-Full-MSG.xsd' has not been resolved, Line: 1068, Column: 6
+XSD: The location '../XSD/ST-QueryTopupNotifi-Req-IO-MSG.xsd' has not been resolved, Line: 1072, Column: 6
+XSD: The location '../XSD/ST-QueryTrackDelete-Res-Full-MSG.xsd' has not been resolved, Line: 1076, Column: 6
+XSD: The location '../XSD/ST-QueryTrackDelete-Req-IO-MSG.xsd' has not been resolved, Line: 1080, Column: 6
+XSD: The location '../XSD/ST-QueryTrackRelease-Res-Full-MSG.xsd' has not been resolved, Line: 1084, Column: 6
+XSD: The location '../XSD/ST-QueryTrackRelease-Req-IO-MSG.xsd' has not been resolved, Line: 1088, Column: 6
+XSD: The location '../XSD/ST-QueryVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 1092, Column: 6
+XSD: The location '../XSD/ST-QueryVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 1096, Column: 6
+XSD: The location '../XSD/ST-QuerycustAccountDetails-Res-Full-MSG.xsd' has not been resolved, Line: 1100, Column: 6
+XSD: The location '../XSD/ST-QuerycustAccountDetails-Req-IO-MSG.xsd' has not been resolved, Line: 1104, Column: 6
+XSD: The location '../XSD/ST-ReopenCbStmt-Req-Full-MSG.xsd' has not been resolved, Line: 1108, Column: 6
+XSD: The location '../XSD/ST-ReopenCbStmt-Res-Full-MSG.xsd' has not been resolved, Line: 1112, Column: 6
+XSD: The location '../XSD/ST-ReopenCbStmt-Req-IO-MSG.xsd' has not been resolved, Line: 1116, Column: 6
+XSD: The location '../XSD/ST-ReopenCbStmt-Res-PK-MSG.xsd' has not been resolved, Line: 1120, Column: 6
+XSD: The location '../XSD/CA-ReopenCheckBook-Req-Full-MSG.xsd' has not been resolved, Line: 1124, Column: 6
+XSD: The location '../XSD/CA-ReopenCheckBook-Res-Full-MSG.xsd' has not been resolved, Line: 1128, Column: 6
+XSD: The location '../XSD/CA-ReopenCheckBook-Req-IO-MSG.xsd' has not been resolved, Line: 1132, Column: 6
+XSD: The location '../XSD/CA-ReopenCheckBook-Res-PK-MSG.xsd' has not been resolved, Line: 1136, Column: 6
+XSD: The location '../XSD/ST-ReopenCustAcc-Req-Full-MSG.xsd' has not been resolved, Line: 1140, Column: 6
+XSD: The location '../XSD/ST-ReopenCustAcc-Res-Full-MSG.xsd' has not been resolved, Line: 1144, Column: 6
+XSD: The location '../XSD/ST-ReopenCustAcc-Req-IO-MSG.xsd' has not been resolved, Line: 1148, Column: 6
+XSD: The location '../XSD/ST-ReopenCustAcc-Res-PK-MSG.xsd' has not been resolved, Line: 1152, Column: 6
+XSD: The location '../XSD/ST-ReopenVirAcc-Req-Full-MSG.xsd' has not been resolved, Line: 1156, Column: 6
+XSD: The location '../XSD/ST-ReopenVirAcc-Res-Full-MSG.xsd' has not been resolved, Line: 1160, Column: 6
+XSD: The location '../XSD/ST-ReopenVirAcc-Req-IO-MSG.xsd' has not been resolved, Line: 1164, Column: 6
+XSD: The location '../XSD/ST-ReopenVirAcc-Res-PK-MSG.xsd' has not been resolved, Line: 1168, Column: 6
+WSDL: The 'AUTHORIZEACCLASSTFR_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1173, Column: 4
+WSDL: The 'AUTHORIZEACCLASSTFR_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1176, Column: 4
+WSDL: The 'AUTHORIZEACCLASSTFR_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1179, Column: 4
+WSDL: The 'AUTHORIZEACCLASSTFR_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1182, Column: 4
+WSDL: The 'AUTHORIZEAUTODEPINS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1185, Column: 4
+WSDL: The 'AUTHORIZEAUTODEPINS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1188, Column: 4
+WSDL: The 'AUTHORIZEAUTODEPINS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1191, Column: 4
+WSDL: The 'AUTHORIZEAUTODEPINS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1194, Column: 4
+WSDL: The 'AUTHORIZECBSTMT_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1197, Column: 4
+WSDL: The 'AUTHORIZECBSTMT_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1200, Column: 4
+WSDL: The 'AUTHORIZECBSTMT_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1203, Column: 4
+WSDL: The 'AUTHORIZECBSTMT_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1206, Column: 4
+WSDL: The 'AUTHORIZECHECKBOOK_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1209, Column: 4
+WSDL: The 'AUTHORIZECHECKBOOK_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1212, Column: 4
+WSDL: The 'AUTHORIZECHECKBOOK_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1215, Column: 4
+WSDL: The 'AUTHORIZECHECKBOOK_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1218, Column: 4
+WSDL: The 'AUTHORIZECHECKDETAILS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1221, Column: 4
+WSDL: The 'AUTHORIZECHECKDETAILS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1224, Column: 4
+WSDL: The 'AUTHORIZECHECKDETAILS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1227, Column: 4
+WSDL: The 'AUTHORIZECHECKDETAILS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1230, Column: 4
+WSDL: The 'AUTHORIZECHQARCHIVAL_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1233, Column: 4
+WSDL: The 'AUTHORIZECHQARCHIVAL_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1236, Column: 4
+WSDL: The 'AUTHORIZECHQARCHIVAL_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1239, Column: 4
+WSDL: The 'AUTHORIZECHQARCHIVAL_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1242, Column: 4
+WSDL: The 'AUTHORIZECUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1245, Column: 4
+WSDL: The 'AUTHORIZECUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1248, Column: 4
+WSDL: The 'AUTHORIZECUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1251, Column: 4
+WSDL: The 'AUTHORIZECUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1254, Column: 4
+WSDL: The 'AUTHORIZESTOPPAYMENTS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1257, Column: 4
+WSDL: The 'AUTHORIZESTOPPAYMENTS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1260, Column: 4
+WSDL: The 'AUTHORIZESTOPPAYMENTS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1263, Column: 4
+WSDL: The 'AUTHORIZESTOPPAYMENTS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1266, Column: 4
+WSDL: The 'AUTHORIZETDCUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1269, Column: 4
+WSDL: The 'AUTHORIZETDCUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1272, Column: 4
+WSDL: The 'AUTHORIZETDCUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1275, Column: 4
+WSDL: The 'AUTHORIZETDCUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1278, Column: 4
+WSDL: The 'AUTHORIZETDTOPUP_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1281, Column: 4
+WSDL: The 'AUTHORIZETDTOPUP_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1284, Column: 4
+WSDL: The 'AUTHORIZETDTOPUP_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1287, Column: 4
+WSDL: The 'AUTHORIZETDTOPUP_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1290, Column: 4
+WSDL: The 'AUTHORIZETRACKDELETE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1293, Column: 4
+WSDL: The 'AUTHORIZETRACKDELETE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1296, Column: 4
+WSDL: The 'AUTHORIZETRACKDELETE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1299, Column: 4
+WSDL: The 'AUTHORIZETRACKDELETE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1302, Column: 4
+WSDL: The 'AUTHORIZETRACKRELEASE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1305, Column: 4
+WSDL: The 'AUTHORIZETRACKRELEASE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1308, Column: 4
+WSDL: The 'AUTHORIZETRACKRELEASE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1311, Column: 4
+WSDL: The 'AUTHORIZETRACKRELEASE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1314, Column: 4
+WSDL: The 'AUTHORIZEVIRACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1317, Column: 4
+WSDL: The 'AUTHORIZEVIRACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1320, Column: 4
+WSDL: The 'AUTHORIZEVIRACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1323, Column: 4
+WSDL: The 'AUTHORIZEVIRACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1326, Column: 4
+WSDL: The 'CLOSEAUTODEPINS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1329, Column: 4
+WSDL: The 'CLOSEAUTODEPINS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1332, Column: 4
+WSDL: The 'CLOSEAUTODEPINS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1335, Column: 4
+WSDL: The 'CLOSEAUTODEPINS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1338, Column: 4
+WSDL: The 'CLOSECBSTMT_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1341, Column: 4
+WSDL: The 'CLOSECBSTMT_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1344, Column: 4
+WSDL: The 'CLOSECBSTMT_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1347, Column: 4
+WSDL: The 'CLOSECBSTMT_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1350, Column: 4
+WSDL: The 'CLOSECHECKBOOK_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1353, Column: 4
+WSDL: The 'CLOSECHECKBOOK_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1356, Column: 4
+WSDL: The 'CLOSECHECKBOOK_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1359, Column: 4
+WSDL: The 'CLOSECHECKBOOK_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1362, Column: 4
+WSDL: The 'CLOSECUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1365, Column: 4
+WSDL: The 'CLOSECUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1368, Column: 4
+WSDL: The 'CLOSECUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1371, Column: 4
+WSDL: The 'CLOSECUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1374, Column: 4
+WSDL: The 'CLOSESTOPPAYMENTS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1377, Column: 4
+WSDL: The 'CLOSESTOPPAYMENTS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1380, Column: 4
+WSDL: The 'CLOSESTOPPAYMENTS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1383, Column: 4
+WSDL: The 'CLOSESTOPPAYMENTS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1386, Column: 4
+WSDL: The 'CLOSEVIRACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1389, Column: 4
+WSDL: The 'CLOSEVIRACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1392, Column: 4
+WSDL: The 'CLOSEVIRACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1395, Column: 4
+WSDL: The 'CLOSEVIRACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1398, Column: 4
+WSDL: The 'CREATEACCLASSTFR_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1401, Column: 4
+WSDL: The 'CREATEACCLASSTFR_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1404, Column: 4
+WSDL: The 'CREATEACCLASSTFR_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1407, Column: 4
+WSDL: The 'CREATEACCLASSTFR_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1410, Column: 4
+WSDL: The 'CREATEAUTODEPINS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1413, Column: 4
+WSDL: The 'CREATEAUTODEPINS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1416, Column: 4
+WSDL: The 'CREATEAUTODEPINS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1419, Column: 4
+WSDL: The 'CREATEAUTODEPINS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1422, Column: 4
+WSDL: The 'CREATECBSTMT_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1425, Column: 4
+WSDL: The 'CREATECBSTMT_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1428, Column: 4
+WSDL: The 'CREATECBSTMT_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1431, Column: 4
+WSDL: The 'CREATECBSTMT_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1434, Column: 4
+WSDL: The 'CREATECHECKBOOK_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1437, Column: 4
+WSDL: The 'CREATECHECKBOOK_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1440, Column: 4
+WSDL: The 'CREATECHECKBOOK_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1443, Column: 4
+WSDL: The 'CREATECHECKBOOK_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1446, Column: 4
+WSDL: The 'CREATECHQARCHIVAL_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1449, Column: 4
+WSDL: The 'CREATECHQARCHIVAL_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1452, Column: 4
+WSDL: The 'CREATECHQARCHIVAL_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1455, Column: 4
+WSDL: The 'CREATECHQARCHIVAL_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1458, Column: 4
+WSDL: The 'CREATECUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1461, Column: 4
+WSDL: The 'CREATECUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1464, Column: 4
+WSDL: The 'CREATECUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1467, Column: 4
+WSDL: The 'CREATECUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1470, Column: 4
+WSDL: The 'CREATESTOPPAYMENTS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1473, Column: 4
+WSDL: The 'CREATESTOPPAYMENTS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1476, Column: 4
+WSDL: The 'CREATESTOPPAYMENTS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1479, Column: 4
+WSDL: The 'CREATESTOPPAYMENTS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1482, Column: 4
+WSDL: The 'CREATETDCUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1485, Column: 4
+WSDL: The 'CREATETDCUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1488, Column: 4
+WSDL: The 'CREATETDCUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1491, Column: 4
+WSDL: The 'CREATETDCUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1494, Column: 4
+WSDL: The 'CREATETDSIM_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1497, Column: 4
+WSDL: The 'CREATETDSIM_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1500, Column: 4
+WSDL: The 'CREATETDSIM_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1503, Column: 4
+WSDL: The 'CREATETDSIM_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1506, Column: 4
+WSDL: The 'CREATETDTOPUP_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1509, Column: 4
+WSDL: The 'CREATETDTOPUP_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1512, Column: 4
+WSDL: The 'CREATETDTOPUP_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1515, Column: 4
+WSDL: The 'CREATETDTOPUP_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1518, Column: 4
+WSDL: The 'CREATETRACKDELETE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1521, Column: 4
+WSDL: The 'CREATETRACKDELETE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1524, Column: 4
+WSDL: The 'CREATETRACKDELETE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1527, Column: 4
+WSDL: The 'CREATETRACKDELETE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1530, Column: 4
+WSDL: The 'CREATETRACKRELEASE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1533, Column: 4
+WSDL: The 'CREATETRACKRELEASE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1536, Column: 4
+WSDL: The 'CREATETRACKRELEASE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1539, Column: 4
+WSDL: The 'CREATETRACKRELEASE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1542, Column: 4
+WSDL: The 'CREATEVIRACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1545, Column: 4
+WSDL: The 'CREATEVIRACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1548, Column: 4
+WSDL: The 'CREATEVIRACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1551, Column: 4
+WSDL: The 'CREATEVIRACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1554, Column: 4
+WSDL: The 'DELETEACCLASSTFR_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1557, Column: 4
+WSDL: The 'DELETEACCLASSTFR_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1560, Column: 4
+WSDL: The 'DELETEACCLASSTFR_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1563, Column: 4
+WSDL: The 'DELETEACCLASSTFR_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1566, Column: 4
+WSDL: The 'DELETEAUTODEPINS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1569, Column: 4
+WSDL: The 'DELETEAUTODEPINS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1572, Column: 4
+WSDL: The 'DELETEAUTODEPINS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1575, Column: 4
+WSDL: The 'DELETEAUTODEPINS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1578, Column: 4
+WSDL: The 'DELETECBSTMT_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1581, Column: 4
+WSDL: The 'DELETECBSTMT_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1584, Column: 4
+WSDL: The 'DELETECBSTMT_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1587, Column: 4
+WSDL: The 'DELETECBSTMT_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1590, Column: 4
+WSDL: The 'DELETECHECKBOOK_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1593, Column: 4
+WSDL: The 'DELETECHECKBOOK_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1596, Column: 4
+WSDL: The 'DELETECHECKBOOK_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1599, Column: 4
+WSDL: The 'DELETECHECKBOOK_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1602, Column: 4
+WSDL: The 'DELETECHQARCHIVAL_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1605, Column: 4
+WSDL: The 'DELETECHQARCHIVAL_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1608, Column: 4
+WSDL: The 'DELETECHQARCHIVAL_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1611, Column: 4
+WSDL: The 'DELETECHQARCHIVAL_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1614, Column: 4
+WSDL: The 'DELETECUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1617, Column: 4
+WSDL: The 'DELETECUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1620, Column: 4
+WSDL: The 'DELETECUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1623, Column: 4
+WSDL: The 'DELETECUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1626, Column: 4
+WSDL: The 'DELETESTOPPAYMENTS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1629, Column: 4
+WSDL: The 'DELETESTOPPAYMENTS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1632, Column: 4
+WSDL: The 'DELETESTOPPAYMENTS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1635, Column: 4
+WSDL: The 'DELETESTOPPAYMENTS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1638, Column: 4
+WSDL: The 'DELETETDCUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1641, Column: 4
+WSDL: The 'DELETETDCUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1644, Column: 4
+WSDL: The 'DELETETDCUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1647, Column: 4
+WSDL: The 'DELETETDCUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1650, Column: 4
+WSDL: The 'DELETETDTOPUP_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1653, Column: 4
+WSDL: The 'DELETETDTOPUP_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1656, Column: 4
+WSDL: The 'DELETETDTOPUP_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1659, Column: 4
+WSDL: The 'DELETETDTOPUP_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1662, Column: 4
+WSDL: The 'DELETETRACKDELETE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1665, Column: 4
+WSDL: The 'DELETETRACKDELETE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1668, Column: 4
+WSDL: The 'DELETETRACKDELETE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1671, Column: 4
+WSDL: The 'DELETETRACKDELETE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1674, Column: 4
+WSDL: The 'DELETETRACKRELEASE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1677, Column: 4
+WSDL: The 'DELETETRACKRELEASE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1680, Column: 4
+WSDL: The 'DELETETRACKRELEASE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1683, Column: 4
+WSDL: The 'DELETETRACKRELEASE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1686, Column: 4
+WSDL: The 'DELETEVIRACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1689, Column: 4
+WSDL: The 'DELETEVIRACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1692, Column: 4
+WSDL: The 'DELETEVIRACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1695, Column: 4
+WSDL: The 'DELETEVIRACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1698, Column: 4
+WSDL: The 'MODIFYACCLASSTFR_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1701, Column: 4
+WSDL: The 'MODIFYACCLASSTFR_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1704, Column: 4
+WSDL: The 'MODIFYACCLASSTFR_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1707, Column: 4
+WSDL: The 'MODIFYACCLASSTFR_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1710, Column: 4
+WSDL: The 'MODIFYAUTODEPINS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1713, Column: 4
+WSDL: The 'MODIFYAUTODEPINS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1716, Column: 4
+WSDL: The 'MODIFYAUTODEPINS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1719, Column: 4
+WSDL: The 'MODIFYAUTODEPINS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1722, Column: 4
+WSDL: The 'MODIFYCBSTMT_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1725, Column: 4
+WSDL: The 'MODIFYCBSTMT_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1728, Column: 4
+WSDL: The 'MODIFYCBSTMT_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1731, Column: 4
+WSDL: The 'MODIFYCBSTMT_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1734, Column: 4
+WSDL: The 'MODIFYCHECKBOOK_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1737, Column: 4
+WSDL: The 'MODIFYCHECKBOOK_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1740, Column: 4
+WSDL: The 'MODIFYCHECKBOOK_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1743, Column: 4
+WSDL: The 'MODIFYCHECKBOOK_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1746, Column: 4
+WSDL: The 'MODIFYCHECKDETAILS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1749, Column: 4
+WSDL: The 'MODIFYCHECKDETAILS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1752, Column: 4
+WSDL: The 'MODIFYCHECKDETAILS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1755, Column: 4
+WSDL: The 'MODIFYCHECKDETAILS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1758, Column: 4
+WSDL: The 'MODIFYCHQARCHIVAL_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1761, Column: 4
+WSDL: The 'MODIFYCHQARCHIVAL_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1764, Column: 4
+WSDL: The 'MODIFYCHQARCHIVAL_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1767, Column: 4
+WSDL: The 'MODIFYCHQARCHIVAL_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1770, Column: 4
+WSDL: The 'MODIFYCUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1773, Column: 4
+WSDL: The 'MODIFYCUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1776, Column: 4
+WSDL: The 'MODIFYCUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1779, Column: 4
+WSDL: The 'MODIFYCUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1782, Column: 4
+WSDL: The 'MODIFYSTOPPAYMENTS_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1785, Column: 4
+WSDL: The 'MODIFYSTOPPAYMENTS_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1788, Column: 4
+WSDL: The 'MODIFYSTOPPAYMENTS_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1791, Column: 4
+WSDL: The 'MODIFYSTOPPAYMENTS_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1794, Column: 4
+WSDL: The 'MODIFYTDCUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1797, Column: 4
+WSDL: The 'MODIFYTDCUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1800, Column: 4
+WSDL: The 'MODIFYTDCUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1803, Column: 4
+WSDL: The 'MODIFYTDCUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1806, Column: 4
+WSDL: The 'MODIFYTDTOPUP_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1809, Column: 4
+WSDL: The 'MODIFYTDTOPUP_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1812, Column: 4
+WSDL: The 'MODIFYTDTOPUP_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1815, Column: 4
+WSDL: The 'MODIFYTDTOPUP_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1818, Column: 4
+WSDL: The 'MODIFYTRACKDELETE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1821, Column: 4
+WSDL: The 'MODIFYTRACKDELETE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1824, Column: 4
+WSDL: The 'MODIFYTRACKDELETE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1827, Column: 4
+WSDL: The 'MODIFYTRACKDELETE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1830, Column: 4
+WSDL: The 'MODIFYTRACKRELEASE_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1833, Column: 4
+WSDL: The 'MODIFYTRACKRELEASE_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1836, Column: 4
+WSDL: The 'MODIFYTRACKRELEASE_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1839, Column: 4
+WSDL: The 'MODIFYTRACKRELEASE_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1842, Column: 4
+WSDL: The 'MODIFYVIRACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1845, Column: 4
+WSDL: The 'MODIFYVIRACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1848, Column: 4
+WSDL: The 'MODIFYVIRACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1851, Column: 4
+WSDL: The 'MODIFYVIRACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1854, Column: 4
+WSDL: The 'QUERYACCLASSTFR_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1857, Column: 4
+WSDL: The 'QUERYACCLASSTFR_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1860, Column: 4
+WSDL: The 'QUERYACCBAL_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1863, Column: 4
+WSDL: The 'QUERYACCBAL_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1866, Column: 4
+WSDL: The 'QUERYACCSUMM_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1869, Column: 4
+WSDL: The 'QUERYACCSUMM_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1872, Column: 4
+WSDL: The 'QUERYAUTODEPINS_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1875, Column: 4
+WSDL: The 'QUERYAUTODEPINS_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1878, Column: 4
+WSDL: The 'QUERYCBSTMT_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1881, Column: 4
+WSDL: The 'QUERYCBSTMT_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1884, Column: 4
+WSDL: The 'QUERYCHECKBOOK_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1887, Column: 4
+WSDL: The 'QUERYCHECKBOOK_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1890, Column: 4
+WSDL: The 'QUERYCHECKDETAILS_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1893, Column: 4
+WSDL: The 'QUERYCHECKDETAILS_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1896, Column: 4
+WSDL: The 'QUERYCHQARCHIVAL_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1899, Column: 4
+WSDL: The 'QUERYCHQARCHIVAL_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1902, Column: 4
+WSDL: The 'QUERYCLOSENOTIFI_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1905, Column: 4
+WSDL: The 'QUERYCLOSENOTIFI_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1908, Column: 4
+WSDL: The 'QUERYCUSTACC_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1911, Column: 4
+WSDL: The 'QUERYCUSTACC_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1914, Column: 4
+WSDL: The 'QUERYCUSTACCBALANCE_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1917, Column: 4
+WSDL: The 'QUERYCUSTACCBALANCE_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1920, Column: 4
+WSDL: The 'QUERYGENADVICE_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1923, Column: 4
+WSDL: The 'QUERYGENADVICE_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1926, Column: 4
+WSDL: The 'QUERYNOACTIVITYNOTIFI_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1929, Column: 4
+WSDL: The 'QUERYNOACTIVITYNOTIFI_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1932, Column: 4
+WSDL: The 'QUERYSTOPPAYMENTS_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1935, Column: 4
+WSDL: The 'QUERYSTOPPAYMENTS_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1938, Column: 4
+WSDL: The 'QUERYTDCUSTACC_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1941, Column: 4
+WSDL: The 'QUERYTDCUSTACC_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1944, Column: 4
+WSDL: The 'QUERYTDCUSTACCSIM_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1947, Column: 4
+WSDL: The 'QUERYTDCUSTACCSIM_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1950, Column: 4
+WSDL: The 'QUERYTDTOPUP_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1953, Column: 4
+WSDL: The 'QUERYTDTOPUP_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1956, Column: 4
+WSDL: The 'QUERYTOPUPSIM_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1959, Column: 4
+WSDL: The 'QUERYTOPUPSIM_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1962, Column: 4
+WSDL: The 'QUERYTOPUPNOTIFI_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1965, Column: 4
+WSDL: The 'QUERYTOPUPNOTIFI_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1968, Column: 4
+WSDL: The 'QUERYTRACKDELETE_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1971, Column: 4
+WSDL: The 'QUERYTRACKDELETE_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1974, Column: 4
+WSDL: The 'QUERYTRACKRELEASE_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1977, Column: 4
+WSDL: The 'QUERYTRACKRELEASE_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1980, Column: 4
+WSDL: The 'QUERYVIRACC_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1983, Column: 4
+WSDL: The 'QUERYVIRACC_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1986, Column: 4
+WSDL: The 'QUERYCUSTACCOUNTDETAILS_IOFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1989, Column: 4
+WSDL: The 'QUERYCUSTACCOUNTDETAILS_IOFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1992, Column: 4
+WSDL: The 'REOPENCBSTMT_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 1995, Column: 4
+WSDL: The 'REOPENCBSTMT_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 1998, Column: 4
+WSDL: The 'REOPENCBSTMT_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2001, Column: 4
+WSDL: The 'REOPENCBSTMT_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2004, Column: 4
+WSDL: The 'REOPENCHECKBOOK_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2007, Column: 4
+WSDL: The 'REOPENCHECKBOOK_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2010, Column: 4
+WSDL: The 'REOPENCHECKBOOK_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2013, Column: 4
+WSDL: The 'REOPENCHECKBOOK_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2016, Column: 4
+WSDL: The 'REOPENCUSTACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2019, Column: 4
+WSDL: The 'REOPENCUSTACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2022, Column: 4
+WSDL: The 'REOPENCUSTACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2025, Column: 4
+WSDL: The 'REOPENCUSTACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2028, Column: 4
+WSDL: The 'REOPENVIRACC_FSFS_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2031, Column: 4
+WSDL: The 'REOPENVIRACC_FSFS_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2034, Column: 4
+WSDL: The 'REOPENVIRACC_IOPK_REQ' element referenced by the RequestMsg part cannot be resolved., Line: 2037, Column: 4
+WSDL: The 'REOPENVIRACC_IOPK_RES' element referenced by the ResponseMsg part cannot be resolved., Line: 2040, Column: 4
+
+
+The WSDL import will proceed with bindings FCUBSAccService.
+Creating wsdl schema document for file:///E:/IBM_ACE/Projects/Dashen/Docs & Refs/Requirements/FLEXCUBE 12.2 WSDL/FCUBSAccService.wsdl.
+Parsing wsdl binding {http://FCUBSAccService.types.ws.gw.fcubs.ofss.com}FCUBSAccService.
+Parsing wsdl binding input AuthorizeAcClassTfrFS.
+Parsing wsdl binding output AuthorizeAcClassTfrFS.
+Parsing wsdl binding input AuthorizeAcClassTfrIO.
+Parsing wsdl binding output AuthorizeAcClassTfrIO.
+Parsing wsdl binding input AuthorizeAutoDepInsFS.
+Parsing wsdl binding output AuthorizeAutoDepInsFS.
+Parsing wsdl binding input AuthorizeAutoDepInsIO.
+Parsing wsdl binding output AuthorizeAutoDepInsIO.
+Parsing wsdl binding input AuthorizeCbStmtFS.
+Parsing wsdl binding output AuthorizeCbStmtFS.
+Parsing wsdl binding input AuthorizeCbStmtIO.
+Parsing wsdl binding output AuthorizeCbStmtIO.
+Parsing wsdl binding input AuthorizeCheckBookFS.
+Parsing wsdl binding output AuthorizeCheckBookFS.
+Parsing wsdl binding input AuthorizeCheckBookIO.
+Parsing wsdl binding output AuthorizeCheckBookIO.
+Parsing wsdl binding input AuthorizeCheckDetailsFS.
+Parsing wsdl binding output AuthorizeCheckDetailsFS.
+Parsing wsdl binding input AuthorizeCheckDetailsIO.
+Parsing wsdl binding output AuthorizeCheckDetailsIO.
+Parsing wsdl binding input AuthorizeChqArchivalFS.
+Parsing wsdl binding output AuthorizeChqArchivalFS.
+Parsing wsdl binding input AuthorizeChqArchivalIO.
+Parsing wsdl binding output AuthorizeChqArchivalIO.
+Parsing wsdl binding input AuthorizeCustAccFS.
+Parsing wsdl binding output AuthorizeCustAccFS.
+Parsing wsdl binding input AuthorizeCustAccIO.
+Parsing wsdl binding output AuthorizeCustAccIO.
+Parsing wsdl binding input AuthorizeStopPaymentsFS.
+Parsing wsdl binding output AuthorizeStopPaymentsFS.
+Parsing wsdl binding input AuthorizeStopPaymentsIO.
+Parsing wsdl binding output AuthorizeStopPaymentsIO.
+Parsing wsdl binding input AuthorizeTDCustAccFS.
+Parsing wsdl binding output AuthorizeTDCustAccFS.
+Parsing wsdl binding input AuthorizeTDCustAccIO.
+Parsing wsdl binding output AuthorizeTDCustAccIO.
+Parsing wsdl binding input AuthorizeTDTopUpFS.
+Parsing wsdl binding output AuthorizeTDTopUpFS.
+Parsing wsdl binding input AuthorizeTDTopUpIO.
+Parsing wsdl binding output AuthorizeTDTopUpIO.
+Parsing wsdl binding input AuthorizeTrackDeleteFS.
+Parsing wsdl binding output AuthorizeTrackDeleteFS.
+Parsing wsdl binding input AuthorizeTrackDeleteIO.
+Parsing wsdl binding output AuthorizeTrackDeleteIO.
+Parsing wsdl binding input AuthorizeTrackReleaseFS.
+Parsing wsdl binding output AuthorizeTrackReleaseFS.
+Parsing wsdl binding input AuthorizeTrackReleaseIO.
+Parsing wsdl binding output AuthorizeTrackReleaseIO.
+Parsing wsdl binding input AuthorizeVirAccFS.
+Parsing wsdl binding output AuthorizeVirAccFS.
+Parsing wsdl binding input AuthorizeVirAccIO.
+Parsing wsdl binding output AuthorizeVirAccIO.
+Parsing wsdl binding input CloseAutoDepInsFS.
+Parsing wsdl binding output CloseAutoDepInsFS.
+Parsing wsdl binding input CloseAutoDepInsIO.
+Parsing wsdl binding output CloseAutoDepInsIO.
+Parsing wsdl binding input CloseCbStmtFS.
+Parsing wsdl binding output CloseCbStmtFS.
+Parsing wsdl binding input CloseCbStmtIO.
+Parsing wsdl binding output CloseCbStmtIO.
+Parsing wsdl binding input CloseCheckBookFS.
+Parsing wsdl binding output CloseCheckBookFS.
+Parsing wsdl binding input CloseCheckBookIO.
+Parsing wsdl binding output CloseCheckBookIO.
+Parsing wsdl binding input CloseCustAccFS.
+Parsing wsdl binding output CloseCustAccFS.
+Parsing wsdl binding input CloseCustAccIO.
+Parsing wsdl binding output CloseCustAccIO.
+Parsing wsdl binding input CloseStopPaymentsFS.
+Parsing wsdl binding output CloseStopPaymentsFS.
+Parsing wsdl binding input CloseStopPaymentsIO.
+Parsing wsdl binding output CloseStopPaymentsIO.
+Parsing wsdl binding input CloseVirAccFS.
+Parsing wsdl binding output CloseVirAccFS.
+Parsing wsdl binding input CloseVirAccIO.
+Parsing wsdl binding output CloseVirAccIO.
+Parsing wsdl binding input CreateAcClassTfrFS.
+Parsing wsdl binding output CreateAcClassTfrFS.
+Parsing wsdl binding input CreateAcClassTfrIO.
+Parsing wsdl binding output CreateAcClassTfrIO.
+Parsing wsdl binding input CreateAutoDepInsFS.
+Parsing wsdl binding output CreateAutoDepInsFS.
+Parsing wsdl binding input CreateAutoDepInsIO.
+Parsing wsdl binding output CreateAutoDepInsIO.
+Parsing wsdl binding input CreateCbStmtFS.
+Parsing wsdl binding output CreateCbStmtFS.
+Parsing wsdl binding input CreateCbStmtIO.
+Parsing wsdl binding output CreateCbStmtIO.
+Parsing wsdl binding input CreateCheckBookFS.
+Parsing wsdl binding output CreateCheckBookFS.
+Parsing wsdl binding input CreateCheckBookIO.
+Parsing wsdl binding output CreateCheckBookIO.
+Parsing wsdl binding input CreateChqArchivalFS.
+Parsing wsdl binding output CreateChqArchivalFS.
+Parsing wsdl binding input CreateChqArchivalIO.
+Parsing wsdl binding output CreateChqArchivalIO.
+Parsing wsdl binding input CreateCustAccFS.
+Parsing wsdl binding output CreateCustAccFS.
+Parsing wsdl binding input CreateCustAccIO.
+Parsing wsdl binding output CreateCustAccIO.
+Parsing wsdl binding input CreateStopPaymentsFS.
+Parsing wsdl binding output CreateStopPaymentsFS.
+Parsing wsdl binding input CreateStopPaymentsIO.
+Parsing wsdl binding output CreateStopPaymentsIO.
+Parsing wsdl binding input CreateTDCustAccFS.
+Parsing wsdl binding output CreateTDCustAccFS.
+Parsing wsdl binding input CreateTDCustAccIO.
+Parsing wsdl binding output CreateTDCustAccIO.
+Parsing wsdl binding input CreateTDSimFS.
+Parsing wsdl binding output CreateTDSimFS.
+Parsing wsdl binding input CreateTDSimIO.
+Parsing wsdl binding output CreateTDSimIO.
+Parsing wsdl binding input CreateTDTopUpFS.
+Parsing wsdl binding output CreateTDTopUpFS.
+Parsing wsdl binding input CreateTDTopUpIO.
+Parsing wsdl binding output CreateTDTopUpIO.
+Parsing wsdl binding input CreateTrackDeleteFS.
+Parsing wsdl binding output CreateTrackDeleteFS.
+Parsing wsdl binding input CreateTrackDeleteIO.
+Parsing wsdl binding output CreateTrackDeleteIO.
+Parsing wsdl binding input CreateTrackReleaseFS.
+Parsing wsdl binding output CreateTrackReleaseFS.
+Parsing wsdl binding input CreateTrackReleaseIO.
+Parsing wsdl binding output CreateTrackReleaseIO.
+Parsing wsdl binding input CreateVirAccFS.
+Parsing wsdl binding output CreateVirAccFS.
+Parsing wsdl binding input CreateVirAccIO.
+Parsing wsdl binding output CreateVirAccIO.
+Parsing wsdl binding input DeleteAcClassTfrFS.
+Parsing wsdl binding output DeleteAcClassTfrFS.
+Parsing wsdl binding input DeleteAcClassTfrIO.
+Parsing wsdl binding output DeleteAcClassTfrIO.
+Parsing wsdl binding input DeleteAutoDepInsFS.
+Parsing wsdl binding output DeleteAutoDepInsFS.
+Parsing wsdl binding input DeleteAutoDepInsIO.
+Parsing wsdl binding output DeleteAutoDepInsIO.
+Parsing wsdl binding input DeleteCbStmtFS.
+Parsing wsdl binding output DeleteCbStmtFS.
+Parsing wsdl binding input DeleteCbStmtIO.
+Parsing wsdl binding output DeleteCbStmtIO.
+Parsing wsdl binding input DeleteCheckBookFS.
+Parsing wsdl binding output DeleteCheckBookFS.
+Parsing wsdl binding input DeleteCheckBookIO.
+Parsing wsdl binding output DeleteCheckBookIO.
+Parsing wsdl binding input DeleteChqArchivalFS.
+Parsing wsdl binding output DeleteChqArchivalFS.
+Parsing wsdl binding input DeleteChqArchivalIO.
+Parsing wsdl binding output DeleteChqArchivalIO.
+Parsing wsdl binding input DeleteCustAccFS.
+Parsing wsdl binding output DeleteCustAccFS.
+Parsing wsdl binding input DeleteCustAccIO.
+Parsing wsdl binding output DeleteCustAccIO.
+Parsing wsdl binding input DeleteStopPaymentsFS.
+Parsing wsdl binding output DeleteStopPaymentsFS.
+Parsing wsdl binding input DeleteStopPaymentsIO.
+Parsing wsdl binding output DeleteStopPaymentsIO.
+Parsing wsdl binding input DeleteTDCustAccFS.
+Parsing wsdl binding output DeleteTDCustAccFS.
+Parsing wsdl binding input DeleteTDCustAccIO.
+Parsing wsdl binding output DeleteTDCustAccIO.
+Parsing wsdl binding input DeleteTDTopUpFS.
+Parsing wsdl binding output DeleteTDTopUpFS.
+Parsing wsdl binding input DeleteTDTopUpIO.
+Parsing wsdl binding output DeleteTDTopUpIO.
+Parsing wsdl binding input DeleteTrackDeleteFS.
+Parsing wsdl binding output DeleteTrackDeleteFS.
+Parsing wsdl binding input DeleteTrackDeleteIO.
+Parsing wsdl binding output DeleteTrackDeleteIO.
+Parsing wsdl binding input DeleteTrackReleaseFS.
+Parsing wsdl binding output DeleteTrackReleaseFS.
+Parsing wsdl binding input DeleteTrackReleaseIO.
+Parsing wsdl binding output DeleteTrackReleaseIO.
+Parsing wsdl binding input DeleteVirAccFS.
+Parsing wsdl binding output DeleteVirAccFS.
+Parsing wsdl binding input DeleteVirAccIO.
+Parsing wsdl binding output DeleteVirAccIO.
+Parsing wsdl binding input ModifyAcClassTfrFS.
+Parsing wsdl binding output ModifyAcClassTfrFS.
+Parsing wsdl binding input ModifyAcClassTfrIO.
+Parsing wsdl binding output ModifyAcClassTfrIO.
+Parsing wsdl binding input ModifyAutoDepInsFS.
+Parsing wsdl binding output ModifyAutoDepInsFS.
+Parsing wsdl binding input ModifyAutoDepInsIO.
+Parsing wsdl binding output ModifyAutoDepInsIO.
+Parsing wsdl binding input ModifyCbStmtFS.
+Parsing wsdl binding output ModifyCbStmtFS.
+Parsing wsdl binding input ModifyCbStmtIO.
+Parsing wsdl binding output ModifyCbStmtIO.
+Parsing wsdl binding input ModifyCheckBookFS.
+Parsing wsdl binding output ModifyCheckBookFS.
+Parsing wsdl binding input ModifyCheckBookIO.
+Parsing wsdl binding output ModifyCheckBookIO.
+Parsing wsdl binding input ModifyCheckDetailsFS.
+Parsing wsdl binding output ModifyCheckDetailsFS.
+Parsing wsdl binding input ModifyCheckDetailsIO.
+Parsing wsdl binding output ModifyCheckDetailsIO.
+Parsing wsdl binding input ModifyChqArchivalFS.
+Parsing wsdl binding output ModifyChqArchivalFS.
+Parsing wsdl binding input ModifyChqArchivalIO.
+Parsing wsdl binding output ModifyChqArchivalIO.
+Parsing wsdl binding input ModifyCustAccFS.
+Parsing wsdl binding output ModifyCustAccFS.
+Parsing wsdl binding input ModifyCustAccIO.
+Parsing wsdl binding output ModifyCustAccIO.
+Parsing wsdl binding input ModifyStopPaymentsFS.
+Parsing wsdl binding output ModifyStopPaymentsFS.
+Parsing wsdl binding input ModifyStopPaymentsIO.
+Parsing wsdl binding output ModifyStopPaymentsIO.
+Parsing wsdl binding input ModifyTDCustAccFS.
+Parsing wsdl binding output ModifyTDCustAccFS.
+Parsing wsdl binding input ModifyTDCustAccIO.
+Parsing wsdl binding output ModifyTDCustAccIO.
+Parsing wsdl binding input ModifyTDTopUpFS.
+Parsing wsdl binding output ModifyTDTopUpFS.
+Parsing wsdl binding input ModifyTDTopUpIO.
+Parsing wsdl binding output ModifyTDTopUpIO.
+Parsing wsdl binding input ModifyTrackDeleteFS.
+Parsing wsdl binding output ModifyTrackDeleteFS.
+Parsing wsdl binding input ModifyTrackDeleteIO.
+Parsing wsdl binding output ModifyTrackDeleteIO.
+Parsing wsdl binding input ModifyTrackReleaseFS.
+Parsing wsdl binding output ModifyTrackReleaseFS.
+Parsing wsdl binding input ModifyTrackReleaseIO.
+Parsing wsdl binding output ModifyTrackReleaseIO.
+Parsing wsdl binding input ModifyVirAccFS.
+Parsing wsdl binding output ModifyVirAccFS.
+Parsing wsdl binding input ModifyVirAccIO.
+Parsing wsdl binding output ModifyVirAccIO.
+Parsing wsdl binding input QueryAcClassTfrIO.
+Parsing wsdl binding output QueryAcClassTfrIO.
+Parsing wsdl binding input QueryAccBalIO.
+Parsing wsdl binding output QueryAccBalIO.
+Parsing wsdl binding input QueryAccSummIO.
+Parsing wsdl binding output QueryAccSummIO.
+Parsing wsdl binding input QueryAutoDepInsIO.
+Parsing wsdl binding output QueryAutoDepInsIO.
+Parsing wsdl binding input QueryCbStmtIO.
+Parsing wsdl binding output QueryCbStmtIO.
+Parsing wsdl binding input QueryCheckBookIO.
+Parsing wsdl binding output QueryCheckBookIO.
+Parsing wsdl binding input QueryCheckDetailsIO.
+Parsing wsdl binding output QueryCheckDetailsIO.
+Parsing wsdl binding input QueryChqArchivalIO.
+Parsing wsdl binding output QueryChqArchivalIO.
+Parsing wsdl binding input QueryCloseNotifiIO.
+Parsing wsdl binding output QueryCloseNotifiIO.
+Parsing wsdl binding input QueryCustAccIO.
+Parsing wsdl binding output QueryCustAccIO.
+Parsing wsdl binding input QueryCustAccBalanceIO.
+Parsing wsdl binding output QueryCustAccBalanceIO.
+Parsing wsdl binding input QueryGenAdviceIO.
+Parsing wsdl binding output QueryGenAdviceIO.
+Parsing wsdl binding input QueryNoactivityNotifiIO.
+Parsing wsdl binding output QueryNoactivityNotifiIO.
+Parsing wsdl binding input QueryStopPaymentsIO.
+Parsing wsdl binding output QueryStopPaymentsIO.
+Parsing wsdl binding input QueryTDCustAccIO.
+Parsing wsdl binding output QueryTDCustAccIO.
+Parsing wsdl binding input QueryTDCustAccSimIO.
+Parsing wsdl binding output QueryTDCustAccSimIO.
+Parsing wsdl binding input QueryTDTopUpIO.
+Parsing wsdl binding output QueryTDTopUpIO.
+Parsing wsdl binding input QueryTopUpSimIO.
+Parsing wsdl binding output QueryTopUpSimIO.
+Parsing wsdl binding input QueryTopupNotifiIO.
+Parsing wsdl binding output QueryTopupNotifiIO.
+Parsing wsdl binding input QueryTrackDeleteIO.
+Parsing wsdl binding output QueryTrackDeleteIO.
+Parsing wsdl binding input QueryTrackReleaseIO.
+Parsing wsdl binding output QueryTrackReleaseIO.
+Parsing wsdl binding input QueryVirAccIO.
+Parsing wsdl binding output QueryVirAccIO.
+Parsing wsdl binding input QuerycustAccountDetailsIO.
+Parsing wsdl binding output QuerycustAccountDetailsIO.
+Parsing wsdl binding input ReopenCbStmtFS.
+Parsing wsdl binding output ReopenCbStmtFS.
+Parsing wsdl binding input ReopenCbStmtIO.
+Parsing wsdl binding output ReopenCbStmtIO.
+Parsing wsdl binding input ReopenCheckBookFS.
+Parsing wsdl binding output ReopenCheckBookFS.
+Parsing wsdl binding input ReopenCheckBookIO.
+Parsing wsdl binding output ReopenCheckBookIO.
+Parsing wsdl binding input ReopenCustAccFS.
+Parsing wsdl binding output ReopenCustAccFS.
+Parsing wsdl binding input ReopenCustAccIO.
+Parsing wsdl binding output ReopenCustAccIO.
+Parsing wsdl binding input ReopenVirAccFS.
+Parsing wsdl binding output ReopenVirAccFS.
+Parsing wsdl binding input ReopenVirAccIO.
+Parsing wsdl binding output ReopenVirAccIO.
+Processing doc style for operation AuthorizeAcClassTfrFS.
+Processing doc style for operation AuthorizeAcClassTfrIO.
+Processing doc style for operation AuthorizeAutoDepInsFS.
+Processing doc style for operation AuthorizeAutoDepInsIO.
+Processing doc style for operation AuthorizeCbStmtFS.
+Processing doc style for operation AuthorizeCbStmtIO.
+Processing doc style for operation AuthorizeCheckBookFS.
+Processing doc style for operation AuthorizeCheckBookIO.
+Processing doc style for operation AuthorizeCheckDetailsFS.
+Processing doc style for operation AuthorizeCheckDetailsIO.
+Processing doc style for operation AuthorizeChqArchivalFS.
+Processing doc style for operation AuthorizeChqArchivalIO.
+Processing doc style for operation AuthorizeCustAccFS.
+Processing doc style for operation AuthorizeCustAccIO.
+Processing doc style for operation AuthorizeStopPaymentsFS.
+Processing doc style for operation AuthorizeStopPaymentsIO.
+Processing doc style for operation AuthorizeTDCustAccFS.
+Processing doc style for operation AuthorizeTDCustAccIO.
+Processing doc style for operation AuthorizeTDTopUpFS.
+Processing doc style for operation AuthorizeTDTopUpIO.
+Processing doc style for operation AuthorizeTrackDeleteFS.
+Processing doc style for operation AuthorizeTrackDeleteIO.
+Processing doc style for operation AuthorizeTrackReleaseFS.
+Processing doc style for operation AuthorizeTrackReleaseIO.
+Processing doc style for operation AuthorizeVirAccFS.
+Processing doc style for operation AuthorizeVirAccIO.
+Processing doc style for operation CloseAutoDepInsFS.
+Processing doc style for operation CloseAutoDepInsIO.
+Processing doc style for operation CloseCbStmtFS.
+Processing doc style for operation CloseCbStmtIO.
+Processing doc style for operation CloseCheckBookFS.
+Processing doc style for operation CloseCheckBookIO.
+Processing doc style for operation CloseCustAccFS.
+Processing doc style for operation CloseCustAccIO.
+Processing doc style for operation CloseStopPaymentsFS.
+Processing doc style for operation CloseStopPaymentsIO.
+Processing doc style for operation CloseVirAccFS.
+Processing doc style for operation CloseVirAccIO.
+Processing doc style for operation CreateAcClassTfrFS.
+Processing doc style for operation CreateAcClassTfrIO.
+Processing doc style for operation CreateAutoDepInsFS.
+Processing doc style for operation CreateAutoDepInsIO.
+Processing doc style for operation CreateCbStmtFS.
+Processing doc style for operation CreateCbStmtIO.
+Processing doc style for operation CreateCheckBookFS.
+Processing doc style for operation CreateCheckBookIO.
+Processing doc style for operation CreateChqArchivalFS.
+Processing doc style for operation CreateChqArchivalIO.
+Processing doc style for operation CreateCustAccFS.
+Processing doc style for operation CreateCustAccIO.
+Processing doc style for operation CreateStopPaymentsFS.
+Processing doc style for operation CreateStopPaymentsIO.
+Processing doc style for operation CreateTDCustAccFS.
+Processing doc style for operation CreateTDCustAccIO.
+Processing doc style for operation CreateTDSimFS.
+Processing doc style for operation CreateTDSimIO.
+Processing doc style for operation CreateTDTopUpFS.
+Processing doc style for operation CreateTDTopUpIO.
+Processing doc style for operation CreateTrackDeleteFS.
+Processing doc style for operation CreateTrackDeleteIO.
+Processing doc style for operation CreateTrackReleaseFS.
+Processing doc style for operation CreateTrackReleaseIO.
+Processing doc style for operation CreateVirAccFS.
+Processing doc style for operation CreateVirAccIO.
+Processing doc style for operation DeleteAcClassTfrFS.
+Processing doc style for operation DeleteAcClassTfrIO.
+Processing doc style for operation DeleteAutoDepInsFS.
+Processing doc style for operation DeleteAutoDepInsIO.
+Processing doc style for operation DeleteCbStmtFS.
+Processing doc style for operation DeleteCbStmtIO.
+Processing doc style for operation DeleteCheckBookFS.
+Processing doc style for operation DeleteCheckBookIO.
+Processing doc style for operation DeleteChqArchivalFS.
+Processing doc style for operation DeleteChqArchivalIO.
+Processing doc style for operation DeleteCustAccFS.
+Processing doc style for operation DeleteCustAccIO.
+Processing doc style for operation DeleteStopPaymentsFS.
+Processing doc style for operation DeleteStopPaymentsIO.
+Processing doc style for operation DeleteTDCustAccFS.
+Processing doc style for operation DeleteTDCustAccIO.
+Processing doc style for operation DeleteTDTopUpFS.
+Processing doc style for operation DeleteTDTopUpIO.
+Processing doc style for operation DeleteTrackDeleteFS.
+Processing doc style for operation DeleteTrackDeleteIO.
+Processing doc style for operation DeleteTrackReleaseFS.
+Processing doc style for operation DeleteTrackReleaseIO.
+Processing doc style for operation DeleteVirAccFS.
+Processing doc style for operation DeleteVirAccIO.
+Processing doc style for operation ModifyAcClassTfrFS.
+Processing doc style for operation ModifyAcClassTfrIO.
+Processing doc style for operation ModifyAutoDepInsFS.
+Processing doc style for operation ModifyAutoDepInsIO.
+Processing doc style for operation ModifyCbStmtFS.
+Processing doc style for operation ModifyCbStmtIO.
+Processing doc style for operation ModifyCheckBookFS.
+Processing doc style for operation ModifyCheckBookIO.
+Processing doc style for operation ModifyCheckDetailsFS.
+Processing doc style for operation ModifyCheckDetailsIO.
+Processing doc style for operation ModifyChqArchivalFS.
+Processing doc style for operation ModifyChqArchivalIO.
+Processing doc style for operation ModifyCustAccFS.
+Processing doc style for operation ModifyCustAccIO.
+Processing doc style for operation ModifyStopPaymentsFS.
+Processing doc style for operation ModifyStopPaymentsIO.
+Processing doc style for operation ModifyTDCustAccFS.
+Processing doc style for operation ModifyTDCustAccIO.
+Processing doc style for operation ModifyTDTopUpFS.
+Processing doc style for operation ModifyTDTopUpIO.
+Processing doc style for operation ModifyTrackDeleteFS.
+Processing doc style for operation ModifyTrackDeleteIO.
+Processing doc style for operation ModifyTrackReleaseFS.
+Processing doc style for operation ModifyTrackReleaseIO.
+Processing doc style for operation ModifyVirAccFS.
+Processing doc style for operation ModifyVirAccIO.
+Processing doc style for operation QueryAcClassTfrIO.
+Processing doc style for operation QueryAccBalIO.
+Processing doc style for operation QueryAccSummIO.
+Processing doc style for operation QueryAutoDepInsIO.
+Processing doc style for operation QueryCbStmtIO.
+Processing doc style for operation QueryCheckBookIO.
+Processing doc style for operation QueryCheckDetailsIO.
+Processing doc style for operation QueryChqArchivalIO.
+Processing doc style for operation QueryCloseNotifiIO.
+Processing doc style for operation QueryCustAccIO.
+Processing doc style for operation QueryCustAccBalanceIO.
+Processing doc style for operation QueryGenAdviceIO.
+Processing doc style for operation QueryNoactivityNotifiIO.
+Processing doc style for operation QueryStopPaymentsIO.
+Processing doc style for operation QueryTDCustAccIO.
+Processing doc style for operation QueryTDCustAccSimIO.
+Processing doc style for operation QueryTDTopUpIO.
+Processing doc style for operation QueryTopUpSimIO.
+Processing doc style for operation QueryTopupNotifiIO.
+Processing doc style for operation QueryTrackDeleteIO.
+Processing doc style for operation QueryTrackReleaseIO.
+Processing doc style for operation QueryVirAccIO.
+Processing doc style for operation QuerycustAccountDetailsIO.
+Processing doc style for operation ReopenCbStmtFS.
+Processing doc style for operation ReopenCbStmtIO.
+Processing doc style for operation ReopenCheckBookFS.
+Processing doc style for operation ReopenCheckBookIO.
+Processing doc style for operation ReopenCustAccFS.
+Processing doc style for operation ReopenCustAccIO.
+Processing doc style for operation ReopenVirAccFS.
+Processing doc style for operation ReopenVirAccIO.
+Populating WSDL schema FCUBSAccService.xsd.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema1.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema2.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema3.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema4.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema5.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema6.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema7.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema8.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema9.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema10.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema11.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema12.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema13.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema14.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema15.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema16.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema17.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema18.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema19.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema20.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema21.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema22.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema23.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema24.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema25.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema26.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema27.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema28.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema29.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema30.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema31.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema32.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema33.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema34.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema35.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema36.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema37.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema38.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema39.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema40.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema41.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema42.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema43.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema44.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema45.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema46.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema47.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema48.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema49.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema50.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema51.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema52.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema53.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema54.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema55.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema56.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema57.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema58.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema59.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema60.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema61.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema62.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema63.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema64.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema65.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema66.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema67.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema68.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema69.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema70.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema71.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema72.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema73.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema74.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema75.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema76.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema77.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema78.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema79.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema80.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema81.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema82.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema83.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema84.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema85.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema86.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema87.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema88.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema89.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema90.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema91.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema92.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema93.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema94.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema95.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema96.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema97.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema98.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema99.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema100.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema101.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema102.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema103.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema104.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema105.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema106.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema107.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema108.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema109.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema110.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema111.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema112.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema113.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema114.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema115.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema116.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema117.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema118.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema119.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema120.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema121.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema122.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema123.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema124.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema125.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema126.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema127.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema128.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema129.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema130.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema131.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema132.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema133.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema134.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema135.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema136.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema137.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema138.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema139.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema140.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema141.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema142.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema143.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema144.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema145.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema146.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema147.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema148.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema149.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema150.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema151.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema152.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema153.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema154.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema155.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema156.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema157.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema158.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema159.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema160.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema161.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema162.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema163.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema164.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema165.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema166.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema167.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema168.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema169.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema170.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema171.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema172.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema173.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema174.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema175.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema176.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema177.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema178.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema179.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema180.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema181.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema182.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema183.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema184.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema185.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema186.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema187.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema188.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema189.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema190.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema191.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema192.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema193.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema194.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema195.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema196.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema197.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema198.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema199.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema200.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema201.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema202.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema203.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema204.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema205.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema206.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema207.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema208.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema209.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema210.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema211.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema212.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema213.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema214.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema215.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema216.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema217.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema218.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema219.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema220.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema221.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema222.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema223.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema224.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema225.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema226.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema227.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema228.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema229.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema230.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema231.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema232.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema233.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema234.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema235.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema236.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema237.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema238.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema239.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema240.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema241.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema242.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema243.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema244.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema245.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema246.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema247.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema248.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema249.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema250.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema251.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema252.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema253.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema254.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema255.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema256.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema257.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema258.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema259.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema260.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema261.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema262.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema263.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema264.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema265.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema266.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema267.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema268.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema269.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema270.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema271.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema272.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema273.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema274.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema275.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema276.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema277.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema278.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema279.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema280.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema281.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema282.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema283.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema284.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema285.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema286.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema287.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema288.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema289.xsd.  This statement was not resolved and is never used.
+Removing unnecessary import statement with namespace http://fcubs.ofss.com/service/FCUBSAccService from schema FCUBSAccService_InlineSchema290.xsd.  This statement was not resolved and is never used.
+Creating file FCUBSAccService.xsd in the workspace.
+Copying source WSDL FCUBSAccService.wsdl to FCUBSAccService.wsdl.
+
+Elapsed time processing this message definition file: 121.034 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+

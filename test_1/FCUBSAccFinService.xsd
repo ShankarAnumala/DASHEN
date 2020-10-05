@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://FCUBSAccFinService.types.ws.gw.fcubs.ofss.com" xmlns:ns="http://fcubs.ofss.com/service/FCUBSAccFinService" xmlns:tns="http://FCUBSAccFinService.types.ws.gw.fcubs.ofss.com">
+  <xsd:include schemaLocation="FCUBSAccFinService_InlineSchema1.xsd"/>
+
+<!-- BEGIN Global group petaining to all wsdl:message definitions -->
+<!-- END Global group -->
+
+
+<!-- BEGIN Message Definitions for the wsdl:operations  -->
+<!-- END Message Definitions -->
+
+
+</xsd:schema>

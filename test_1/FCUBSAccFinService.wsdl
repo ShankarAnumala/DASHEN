@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="FCUBSAccFinService" targetNamespace="http://FCUBSAccFinService.types.ws.gw.fcubs.ofss.com" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://fcubs.ofss.com/service/FCUBSAccFinService" xmlns:tns="http://FCUBSAccFinService.types.ws.gw.fcubs.ofss.com" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <documentation>
+    <appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <binding hasEncoding="false" imported="true" name="FCUBSAccFinService" originalBindingStyle="document"/>
+      </MRWSDLAppInfo>
+    </appinfo>
+  </documentation>
+<wsdl:types>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="QueryFinancialCycleFSRes">
+   <wsdl:part element="ns:QUERYFINANCIALCYCLE_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="QueryFinancialCycleIOReq">
+   <wsdl:part element="ns:QUERYFINANCIALCYCLE_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:message name="RequestAccStmtFSRes">
+   <wsdl:part element="ns:REQUESTACCSTMT_IOFS_RES" name="ResponseMsg"/>
+</wsdl:message> 
+<wsdl:message name="RequestAccStmtIOReq">
+   <wsdl:part element="ns:REQUESTACCSTMT_IOFS_REQ" name="RequestMsg"/>
+</wsdl:message> 
+<wsdl:portType name="FCUBSAccFinServiceSEI">
+  <wsdl:operation name="QueryFinancialCycleIO">
+     <wsdl:input message="tns:QueryFinancialCycleIOReq"/>
+     <wsdl:output message="tns:QueryFinancialCycleFSRes"/>
+  </wsdl:operation>
+  <wsdl:operation name="RequestAccStmtIO">
+     <wsdl:input message="tns:RequestAccStmtIOReq"/>
+     <wsdl:output message="tns:RequestAccStmtFSRes"/>
+  </wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="FCUBSAccFinService" type="tns:FCUBSAccFinServiceSEI">
+<wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <wsdl:operation name="QueryFinancialCycleIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="RequestAccStmtIO">
+       <wsdlsoap:operation soapAction=""/>
+       <wsdl:input>
+           <wsdlsoap:body use="literal"/>
+        </wsdl:input>
+       <wsdl:output>
+           <wsdlsoap:body use="literal"/>
+       </wsdl:output>
+  </wsdl:operation>
+</wsdl:binding>
+   <wsdl:service name="FCUBSAccFinService">
+       <wsdl:port binding="tns:FCUBSAccFinService" name="FCUBSAccFinServiceSEI">
+           <wsdlsoap:address location="http://localhost:9080/FCUBSAccFinService/services/FCUBSAccFinService"/>
+       </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>
