@@ -1,0 +1,33 @@
+
+
+Importing file: C:\Users\Anumala Shankar\IBM\ACET11\dashen\Internalfundtransfer_Businessflow\Gateway.wsdl
+
+The WSDL import will proceed with bindings AccountBalanceEnquiry, BankToWallet, InternalTransfer, WalletToBank.
+Creating wsdl schema document for file:///C:/Users/Anumala Shankar/IBM/ACET11/dashen/Internalfundtransfer_Businessflow/Gateway.wsdl.
+Parsing wsdl binding {http://www.example.org/Gateway/}InternalTransfer.
+Parsing wsdl binding input InternalTransfer.
+Parsing wsdl binding output InternalTransfer.
+Parsing wsdl binding {http://www.example.org/Gateway/}AccountBalanceEnquiry.
+Parsing wsdl binding input AccountBalanceEnquiry.
+Parsing wsdl binding output AccountBalanceEnquiry.
+Parsing wsdl binding {http://www.example.org/Gateway/}BankToWallet.
+Parsing wsdl binding input BankToWallet.
+Parsing wsdl binding output BankToWallet.
+Parsing wsdl binding {http://www.example.org/Gateway/}WalletToBank.
+Parsing wsdl binding input WalletToBank.
+Parsing wsdl binding output WalletToBank.
+Processing doc style for operation InternalTransfer.
+Processing doc style for operation AccountBalanceEnquiry.
+Processing doc style for operation BankToWallet.
+Processing doc style for operation WalletToBank.
+Populating WSDL schema Gateway1.xsd.
+Creating file Gateway1.xsd in the workspace.
+Copying source WSDL Gateway.wsdl to Gateway.wsdl.
+
+Elapsed time processing this message definition file: 0.848 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
