@@ -13,7 +13,7 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 		-- CALL CopyMessageHeaders();
 		  CALL CopyEntireMessage();
 		  ELSE
-			SET OutputRoot.JSON.Data.Log.Message = LOG4J_ERROR;
+			SET OutputRoot.XMLNSC.Log.Message = LOG4J_ERROR;
 		END IF;
 		RETURN TRUE;
 	END;
@@ -33,22 +33,22 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 	    SET Environment.id = id;
 	    SET Environment.ccidRef = InputRoot.Properties.CodedCharSetId;
         SET Environment.encodeRef = InputRoot.Properties.Encoding;
-	    SET Environment.domainDataRef = InputRoot.JSON.Data;
+	    SET Environment.domainDataRef = InputRoot.XMLNSC;
 	    SET Environment.domainName = FIELDNAME(InputBody);
 	    
 	    DECLARE ccidRef INTEGER Environment.ccidRef;
         DECLARE encodeRef INTEGER Environment.encodeRef;
-	    DECLARE domainDataRef REFERENCE TO InputRoot.JSON.Data;
+	    DECLARE domainDataRef REFERENCE TO InputRoot.XMLNSC;
 	    DECLARE domainName CHARACTER Environment.domainName; 
         DECLARE LOG3 CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
         
         CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','..........INB_AccountBalanceEnquiry Provider Flow is Started...........') INTO rc;
 		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','Request data is: '||LOG3) INTO rc;
 	            
-		SET OutputRoot.HTTPResponseHeader."Content-Type" = Environment.id;
+		SET OutputRoot.HTTPResponseHeader."Content-Type" = id;
 		
-		DECLARE NAME CHARACTER InputRoot.JSON.Data.INB_AccountBalanceEnquiry.CustomerName;
-		DECLARE ACC_NUM INTEGER InputRoot.JSON.Data.INB_AccountBalanceEnquiry.AccountNo;
+		DECLARE NAME CHARACTER InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.CustomerName;
+		DECLARE ACC_NUM INTEGER InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.AccountNo;
 		DECLARE TOTALAMOUNT INTEGER;
         
         DECLARE Qry1 CHARACTER 'SELECT * FROM SAVINGSACCOUNTFUNDTRANSFER WHERE NAME=? AND ACCOUNTNUMBER=?';
@@ -56,18 +56,18 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 		SET DATA.values[]=PASSTHRU(Qry1 TO Database.DBDSN VALUES (NAME,ACC_NUM));
 		SET TOTALAMOUNT = DATA.values.TOTALAMOUNT;
 		
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.Name = NAME;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.AccountNo = ACC_NUM;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.Amount = TOTALAMOUNT;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.Address = InputRoot.JSON.Data.INB_AccountBalanceEnquiry.Address;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.Currency = InputRoot.JSON.Data.INB_AccountBalanceEnquiry.Currency;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.Email = InputRoot.JSON.Data.INB_AccountBalanceEnquiry.Email;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.MobileNo = InputRoot.JSON.Data.INB_AccountBalanceEnquiry.MobileNo;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.ResponseCode = 200;
-		SET OutputRoot.JSON.Data.INB_AccountBalanceEnquiryResponse.ResponseStatus = 'OK';
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Name = NAME;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.AccountNo = ACC_NUM;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Amount = TOTALAMOUNT;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Address = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.Address;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Currency = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.Currency;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Email = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.Email;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.MobileNo = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.MobileNo;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.ResponseCode = 200;
+		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.ResponseStatus = 'OK';
             
-        DECLARE domainDataRef1 REFERENCE TO OutputRoot.JSON.Data;
-		DECLARE domainName1 CHARACTER 'JSON';
+        DECLARE domainDataRef1 REFERENCE TO OutputRoot.XMLNSC;
+		DECLARE domainName1 CHARACTER 'XMLNSC';
 		DECLARE LOG6 CHARACTER getPayLoad(domainName1,domainDataRef1,encodeRef,ccidRef);
 		
 		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','Response data is: '||LOG6) INTO rc;

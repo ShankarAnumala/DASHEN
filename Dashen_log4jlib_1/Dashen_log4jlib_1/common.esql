@@ -10,6 +10,17 @@ BEGIN
 	END IF;
 	RETURN payload;
 END;
+
+CREATE FUNCTION PayloadLogging(IN id CHARACTER,IN Payload_Data CHARACTER,IN Payload_Type CHARACTER,IN Flow_Name CHARACTER,INOUT OutRef REFERENCE)
+BEGIN
+	
+	SET OutRef.payload.Payload_Id = id;
+	SET OutRef.payload.Payload_Data = Payload_Data;
+	SET OutRef.payload.Payload_Type = Payload_Type;
+	SET OutRef.payload.Flow_Name = Flow_Name;
+	        PROPAGATE TO TERMINAL 'out1' DELETE NONE;
+	SET OutRef = NULL;
+END;
 	
 CREATE FUNCTION writeToLogFile(IN COMPONENT_NAME CHARACTER,
 IN LOGGER_NAME CHARACTER,

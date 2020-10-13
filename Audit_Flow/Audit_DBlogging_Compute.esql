@@ -28,23 +28,28 @@ CREATE COMPUTE MODULE Audit_DBlogging_Compute
 	END;
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN	
-		DECLARE ccidRef INTEGER InputRoot.Properties.CodedCharSetId;
-		DECLARE encodeRef INTEGER InputRoot.Properties.Encoding;
-		DECLARE domainDataRef REFERENCE TO InputRoot.XMLNSC;
-		DECLARE domainName CHARACTER FIELDNAME(InputBody);
-		DECLARE RequestIdentifier CHARACTER InputRoot.MQRFH2.usr.ReqId;
-		DECLARE Payload_Flow CHARACTER InputRoot.MQRFH2.usr.Flow_Name;
-		DECLARE Payload_Type CHARACTER InputRoot.MQRFH2.usr.Payload_Type;
+--		DECLARE ccidRef INTEGER InputRoot.Properties.CodedCharSetId;
+--		DECLARE encodeRef INTEGER InputRoot.Properties.Encoding;
+--		DECLARE domainDataRef REFERENCE TO InputRoot.XMLNSC;
+--		DECLARE domainName CHARACTER FIELDNAME(InputBody);
+--		DECLARE RequestIdentifier CHARACTER InputRoot.MQRFH2.usr.ReqId;
+--		DECLARE Payload_Flow CHARACTER InputRoot.MQRFH2.usr.Flow_Name;
+--		DECLARE Payload_Type CHARACTER InputRoot.MQRFH2.usr.Payload_Type;
+        DECLARE payload_data CHARACTER InputRoot.XMLNSC.payload.Payload_Data;
+		DECLARE RequestIdentifier CHARACTER InputRoot.XMLNSC.payload.Payload_Id;
+		DECLARE Payload_Flow CHARACTER InputRoot.XMLNSC.payload.Flow_Name;
+		DECLARE Payload_Type CHARACTER InputRoot.XMLNSC.payload.Payload_Type;
 	    DECLARE Payload_ID INTEGER 1;
-	    DECLARE ref REFERENCE TO InputRoot.XMLNSC.DBLOG;
+	   ------ DECLARE ref REFERENCE TO InputRoot.XMLNSC.DBLOG;
 	    DECLARE Created_by CHARACTER 'ACE USER';
 	    DECLARE Created_on TIMESTAMP CURRENT_TIMESTAMP;
-	    DECLARE Payload CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
+------	    DECLARE Payload CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
 	    
-	    CALL AUDIT_PROCEDURE(Payload_ID,RequestIdentifier,Payload_Type,Payload,Payload_Flow,Created_on,Created_by);
+---	    CALL AUDIT_PROCEDURE(Payload_ID,RequestIdentifier,Payload_Type,Payload,Payload_Flow,Created_on,Created_by);
+	    CALL AUDIT_PROCEDURE(Payload_ID,RequestIdentifier,Payload_Type,payload_data,Payload_Flow,Created_on,Created_by);
 	    
 	    CALL writeToLogFile(MessageFlowLabel,'payloaddblogging_Log','DEBUG','..........Audit logging Flow is Started...........') INTO rc;
-		CALL writeToLogFile(MessageFlowLabel,'payloaddblogging_Log','DEBUG','Audit data is: '||Payload) INTO rc;
+		CALL writeToLogFile(MessageFlowLabel,'payloaddblogging_Log','DEBUG','Audit data is: '||payload_data) INTO rc;
 		CALL writeToLogFile(MessageFlowLabel,'payloaddblogging_Log','DEBUG','..........Audit logging Flow is Ended...........') INTO rc;
 	
 	END;

@@ -1,6 +1,6 @@
 PATH Dashen_log4jlib_1;
 
-CREATE COMPUTE MODULE Businessflow_Compute
+CREATE COMPUTE MODULE ABE_Compute
 	DECLARE rc BOOLEAN;
 	DECLARE LOG4J_PATH EXTERNAL CHARACTER;
 	DECLARE LOG4J_ERROR EXTERNAL CHARACTER;
@@ -10,9 +10,9 @@ CREATE COMPUTE MODULE Businessflow_Compute
 		CALL initLog4j(LOG4J_PATH) INTO rc;
 		IF (rc = TRUE) THEN
 		-- CALL CopyMessageHeaders();
-		  CALL CopyEntireMessage();
-		  ELSE
-			SET OutputRoot.SOAP.Body.Log.Message = LOG4J_ERROR;
+		 CALL CopyEntireMessage();
+		 ELSE
+			SET OutputRoot.XMLNSC.Log.Message = LOG4J_ERROR;
 		END IF;
 		RETURN TRUE;
 	END;
@@ -28,51 +28,52 @@ CREATE COMPUTE MODULE Businessflow_Compute
 	END;
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
-		DECLARE id CHARACTER InputRoot.HTTPInputHeader."Content-Type";
+		DECLARE id CHARACTER InputRoot.HTTPRequestHeader."Content-Type";
 	    SET Environment.id = id;
 	    SET Environment.ccidRef = InputRoot.Properties.CodedCharSetId;
         SET Environment.encodeRef = InputRoot.Properties.Encoding;
-	    SET Environment.domainDataRef = InputRoot.SOAP.Body;
+	    SET Environment.domainDataRef = InputRoot.XMLNSC;
 	    SET Environment.domainName = FIELDNAME(InputBody); 
 	    
 	   DECLARE id1 INTEGER;
-	   DECLARE TRANSACTION_STATUS1 CHARACTER 'Request Received from Router Flow';
+	   DECLARE TRANSACTION_STATUS1 CHARACTER 'Request Received from Router_Request Flow';
 	   DECLARE CREATED_ON1 TIMESTAMP CURRENT_TIMESTAMP;
 	   DECLARE CREATED_BY1 CHARACTER 'ACE USER';
-	   DECLARE SERVICE_NAME CHARACTER 'InternalTransfer';
-	  ----- PASSTHRU 'INSERT INTO TRANSACTION_LOG VALUES(?,?,?,?,?,?)' TO Database.DBDSN VALUES(id1.NEXTVAL,id,SERVICE_NAME,TRANSACTION_STATUS1,CREATED_ON1,CREATED_BY1);
+	   DECLARE SERVICE_NAME CHARACTER 'INB_AccountBalanceEnquiry';
+	  ---- PASSTHRU 'INSERT INTO TRANSACTION_LOG VALUES(?,?,?,?,?,?)' TO Database.DBDSN VALUES(id1.NEXTVAL,id,SERVICE_NAME,TRANSACTION_STATUS1,CREATED_ON1,CREATED_BY1);
 	   INSERT INTO Database.TRANSACTION_LOG(SEQ_ID,REQ_ID,SERVICE_NAME,TRANSACTION_STATUS,CREATED_ON,CREATED_BY) VALUES(id1.NEXTVAL,id,SERVICE_NAME,TRANSACTION_STATUS1,CREATED_ON1,CREATED_BY1);
 	    
 --	    DECLARE blob1 BLOB ASBITSTREAM(InputRoot.XMLNSC);
 --	    
---	   SET OutputRoot.MQRFH2.usr.ReqId = id;
+--	   SET OutputRoot.MQRFH2.usr.ReqId = Environment.id;
 --	   SET OutputRoot.MQRFH2.usr.Flow_Name = MessageFlowLabel;
---	   SET OutputRoot.MQRFH2.usr.Payload_Type = 'InternalfundtransferBusinessflow_Request';
+--	   SET OutputRoot.MQRFH2.usr.Payload_Type = 'INB_AccountBalanceEnquiryBusinessflow_Request';
 --	   SET OutputRoot.XMLNSC.DBLOG = blob1;
 --	                    PROPAGATE TO TERMINAL 'out1' DELETE NONE;
 --	   SET OutputRoot.MQRFH2 = NULL;
 --	   SET OutputRoot.XMLNSC = NULL;
 
-      DECLARE ccidRef INTEGER Environment.ccidRef;
-      DECLARE encodeRef INTEGER Environment.encodeRef;
-	  DECLARE domainDataRef REFERENCE TO InputRoot.SOAP.Body;
-	  DECLARE domainName CHARACTER Environment.domainName; 
-	  DECLARE payload CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
-	  CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
-	  DECLARE OutRef REFERENCE TO OutputRoot.XMLNSC;
-	  CALL PayloadLogging(id,payload,'InternalfundtransferBusinessflow_Request',MessageFlowLabel,OutRef);
-	    
-	   CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','..........Request Received from Router Flow...........') INTO rc;
-	   CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','Request data is: '||payload) INTO rc;
+    DECLARE ccidRef INTEGER Environment.ccidRef;
+    DECLARE encodeRef INTEGER Environment.encodeRef;
+	DECLARE domainDataRef REFERENCE TO InputRoot.XMLNSC;
+	DECLARE domainName CHARACTER Environment.domainName; 
+	DECLARE payload CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
+	CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
+	DECLARE OutRef REFERENCE TO OutputRoot.XMLNSC;
+	CALL PayloadLogging(id,payload,'INB_AccountBalanceEnquiryBusinessflow_Request',MessageFlowLabel,OutRef);
+	   
+	   CALL writeToLogFile(MessageFlowLabel,'ABE_BUSINESSFLOW_LOG','DEBUG','..........Request Received from Router_Request Flow..........') INTO rc;
+	   CALL writeToLogFile(MessageFlowLabel,'ABE_BUSINESSFLOW_LOG','DEBUG','Request data is: '||payload) INTO rc;
 	            
 		SET OutputRoot.HTTPRequestHeader."Content-Type" = id;
-        SET OutputRoot.SOAP = InputRoot.SOAP;
+		
+	   SET OutputRoot.XMLNSC = InputRoot.XMLNSC;
        
        DECLARE TRANSACTION_STATUS2 CHARACTER 'Request Sent to Backend flow';
 	   DECLARE CREATED_ON2 TIMESTAMP CURRENT_TIMESTAMP;
 	   PASSTHRU 'UPDATE TRANSACTION_LOG SET TRANSACTION_STATUS=?,CREATED_ON=? WHERE REQ_ID=?' TO Database.DBDSN VALUES(TRANSACTION_STATUS2,CREATED_ON2,id);
 
-		CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','...............Request Sent to Backend flow..............') INTO rc;
+		CALL writeToLogFile(MessageFlowLabel,'ABE_BUSINESSFLOW_LOG','DEBUG','..................Request Sent to Backend flow..............') INTO rc;
 		
 	END;
 END MODULE;

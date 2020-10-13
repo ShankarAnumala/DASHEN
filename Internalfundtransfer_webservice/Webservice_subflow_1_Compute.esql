@@ -1,5 +1,6 @@
 PATH Dashen_log4jlib_1;
-DECLARE ns NAMESPACE 'http://www.example.org/Gateway/';
+DECLARE ns4 NAMESPACE 'http://www.example.org/Gateway/';
+DECLARE ns NAMESPACE 'http://schemas.xmlsoap.org/soap/envelope/';
 
 CREATE COMPUTE MODULE Webservice_subflow_1_Compute
 	DECLARE rc BOOLEAN;
@@ -13,7 +14,7 @@ CREATE COMPUTE MODULE Webservice_subflow_1_Compute
 		-- CALL CopyMessageHeaders();
 		CALL CopyEntireMessage();
 		ELSE
-			SET OutputRoot.JSON.Data.Log.Message = LOG4J_ERROR;
+			SET OutputRoot.SOAP.Body.Log.Message = LOG4J_ERROR;
 		END IF;
 		RETURN TRUE;
 	END;
@@ -33,29 +34,29 @@ CREATE COMPUTE MODULE Webservice_subflow_1_Compute
 	    SET Environment.id = id;
 	    SET Environment.ccidRef = InputRoot.Properties.CodedCharSetId;
         SET Environment.encodeRef = InputRoot.Properties.Encoding;
-	    SET Environment.domainDataRef = InputRoot.JSON.Data;
+	    SET Environment.domainDataRef = InputRoot.SOAP.Body;
 	    SET Environment.domainName = FIELDNAME(InputBody);
 	    
 	    DECLARE ccidRef INTEGER Environment.ccidRef;
         DECLARE encodeRef INTEGER Environment.encodeRef;
-	    DECLARE domainDataRef REFERENCE TO InputRoot.JSON.Data;
+	    DECLARE domainDataRef REFERENCE TO InputRoot.SOAP.Body;
 	    DECLARE domainName CHARACTER Environment.domainName; 
         DECLARE LOG3 CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
         
         CALL writeToLogFile(MessageFlowLabel,'Internalfundtransfer_Log','DEBUG','..........Internalfundtransfer Provider Flow is Started...........') INTO rc;
 		CALL writeToLogFile(MessageFlowLabel,'Internalfundtransfer_Log','DEBUG','Request data is: '||LOG3) INTO rc;
 	            
-		SET OutputRoot.HTTPResponseHeader."Content-Type" = Environment.id;
+		SET OutputRoot.HTTPResponseHeader."Content-Type" = id;
 --		DECLARE InRef REFERENCE TO InputRoot.JSON.Data.InternalTransfer;
 --        DECLARE OutRef REFERENCE TO OutputRoot.JSON.Data.InternalTransferResponse;
 --		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'InternalTransferResponse';
 		
-        DECLARE REMITTERNAME CHARACTER InputRoot.JSON.Data.InternalTransfer.Remmiter.Name;
-        DECLARE REMITTERACCOUNTNUMBER INTEGER InputRoot.JSON.Data.InternalTransfer.Remmiter.AccNumber;
-        DECLARE REMITTERAMOUNT INTEGER InputRoot.JSON.Data.InternalTransfer.Remmiter.Amount;
-        DECLARE BENIFICIARYAMOUNT INTEGER InputRoot.JSON.Data.InternalTransfer.Benificiary.Amount;
-        DECLARE BENIFICIARYNAME CHARACTER InputRoot.JSON.Data.InternalTransfer.Benificiary.Name;
-        DECLARE BENIFICIARYACCOUNTNUMBER INTEGER InputRoot.JSON.Data.InternalTransfer.Benificiary.AccNumber;
+        DECLARE REMITTERNAME CHARACTER InputRoot.SOAP.Body.ns4:InternalTransfer.Remmiter.Name;
+        DECLARE REMITTERACCOUNTNUMBER INTEGER InputRoot.SOAP.Body.ns4:InternalTransfer.Remmiter.AccNumber;
+        DECLARE REMITTERAMOUNT INTEGER InputRoot.SOAP.Body.ns4:InternalTransfer.Remmiter.Amount;
+        DECLARE BENIFICIARYAMOUNT INTEGER InputRoot.SOAP.Body.ns4:InternalTransfer.Benificiary.Amount;
+        DECLARE BENIFICIARYNAME CHARACTER InputRoot.SOAP.Body.ns4:InternalTransfer.Benificiary.Name;
+        DECLARE BENIFICIARYACCOUNTNUMBER INTEGER InputRoot.SOAP.Body.ns4:InternalTransfer.Benificiary.AccNumber;
         
         DECLARE Qry1 CHARACTER 'SELECT * FROM SAVINGSACCOUNTFUNDTRANSFER WHERE NAME=? AND ACCOUNTNUMBER=?';
 		DECLARE DATA ROW;
@@ -86,22 +87,22 @@ CREATE COMPUTE MODULE Webservice_subflow_1_Compute
 		 
 		SET STATUS1 = 'Amount of '||REMITTERAMOUNT1||' is debited from Account No. '||REMITTERACCOUNTNUMBER1||' of '||REMITTERNAME||' and credited to Account No. '||BENIFICIARYACCOUNTNUMBER1||' of '||BENIFICIARYNAME;
 		
-		SET OutputRoot.JSON.Data.InternalTransferResponse.TotalAmount = REMVAL;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.BeneficiaryAccNumber = BENIFICIARYACCOUNTNUMBER;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.BeneficiaryEmail = InputRoot.JSON.Data.InternalTransfer.Benificiary.Email;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.BeneficiaryMobileNo = InputRoot.JSON.Data.InternalTransfer.Benificiary.MobileNo;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.BeneficiaryName = BENIFICIARYNAME;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.RemmiterAccNumber = REMITTERACCOUNTNUMBER;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.RemmiterEmail = InputRoot.JSON.Data.InternalTransfer.Remmiter.Email;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.RemmiterMobileNo = InputRoot.JSON.Data.InternalTransfer.Remmiter.MobileNo;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.RemmiterName = REMITTERNAME;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.ResponseCode = 200;
-		SET OutputRoot.JSON.Data.InternalTransferResponse.ResponseStatus = 'OK';
-		SET OutputRoot.JSON.Data.InternalTransferResponse.Status = STATUS1;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.TotalAmount = REMVAL;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.BeneficiaryAccNumber = BENIFICIARYACCOUNTNUMBER;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.BeneficiaryEmail = InputRoot.SOAP.Body.ns4:InternalTransfer.Benificiary.Email;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.BeneficiaryMobileNo = InputRoot.SOAP.Body.ns4:InternalTransfer.Benificiary.MobileNo;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.BeneficiaryName = BENIFICIARYNAME;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.RemmiterAccNumber = REMITTERACCOUNTNUMBER;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.RemmiterEmail = InputRoot.SOAP.Body.ns4:InternalTransfer.Remmiter.Email;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.RemmiterMobileNo = InputRoot.SOAP.Body.ns4:InternalTransfer.Remmiter.MobileNo;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.RemmiterName = REMITTERNAME;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.ResponseCode = 200;
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.ResponseStatus = 'OK';
+		SET OutputRoot.SOAP.Body.ns4:InternalTransferResponse.Status = STATUS1;
 	    
             
-        DECLARE domainDataRef1 REFERENCE TO OutputRoot.JSON.Data;
-		DECLARE domainName1 CHARACTER 'JSON';
+        DECLARE domainDataRef1 REFERENCE TO OutputRoot.SOAP.Body;
+		DECLARE domainName1 CHARACTER 'SOAP';
 		DECLARE LOG6 CHARACTER getPayLoad(domainName1,domainDataRef1,encodeRef,ccidRef);
 		
 		CALL writeToLogFile(MessageFlowLabel,'Internalfundtransfer_Log','DEBUG','Response data is: '||LOG6) INTO rc;
