@@ -1,5 +1,4 @@
 PATH Dashen_log4jlib_1;
-DECLARE ns NAMESPACE 'http://www.example.org/Gateway/';
 
 CREATE COMPUTE MODULE ABE_Webservice__Compute
 	DECLARE rc BOOLEAN;
@@ -29,8 +28,8 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 	END;
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
-		DECLARE id CHARACTER InputRoot.HTTPInputHeader."Content-Type";
-	    SET Environment.id = id;
+	--	DECLARE id CHARACTER InputRoot.HTTPInputHeader."Content-Type";
+	--    SET Environment.id = id;
 	    SET Environment.ccidRef = InputRoot.Properties.CodedCharSetId;
         SET Environment.encodeRef = InputRoot.Properties.Encoding;
 	    SET Environment.domainDataRef = InputRoot.XMLNSC;
@@ -45,10 +44,10 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
         CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','..........INB_AccountBalanceEnquiry Provider Flow is Started...........') INTO rc;
 		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','Request data is: '||LOG3) INTO rc;
 	            
-		SET OutputRoot.HTTPResponseHeader."Content-Type" = id;
+	--	SET OutputRoot.HTTPResponseHeader."Content-Type" = id;
 		
-		DECLARE NAME CHARACTER InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.CustomerName;
-		DECLARE ACC_NUM INTEGER InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.AccountNo;
+		DECLARE NAME CHARACTER InputRoot.XMLNSC.AccountBalanceEnquiry.CustomerName;
+		DECLARE ACC_NUM INTEGER InputRoot.XMLNSC.AccountBalanceEnquiry.AccountNo;
 		DECLARE TOTALAMOUNT INTEGER;
         
         DECLARE Qry1 CHARACTER 'SELECT * FROM SAVINGSACCOUNTFUNDTRANSFER WHERE NAME=? AND ACCOUNTNUMBER=?';
@@ -56,15 +55,15 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 		SET DATA.values[]=PASSTHRU(Qry1 TO Database.DBDSN VALUES (NAME,ACC_NUM));
 		SET TOTALAMOUNT = DATA.values.TOTALAMOUNT;
 		
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Name = NAME;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.AccountNo = ACC_NUM;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Amount = TOTALAMOUNT;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Address = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.Address;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Currency = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.Currency;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.Email = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.Email;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.MobileNo = InputRoot.XMLNSC.ns:INB_AccountBalanceEnquiry.MobileNo;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.ResponseCode = 200;
-		SET OutputRoot.XMLNSC.ns:INB_AccountBalanceEnquiryResponse.ResponseStatus = 'OK';
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.Name = NAME;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.AccountNo = ACC_NUM;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.Amount = TOTALAMOUNT;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.Address = InputRoot.XMLNSC.AccountBalanceEnquiry.Address;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.Currency = InputRoot.XMLNSC.AccountBalanceEnquiry.Currency;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.Email = InputRoot.XMLNSC.AccountBalanceEnquiry.Email;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.MobileNo = InputRoot.XMLNSC.AccountBalanceEnquiry.MobileNo;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.ResponseCode = 200;
+		SET OutputRoot.XMLNSC.AccountBalanceEnquiryResponse.ResponseStatus = 'OK';
             
         DECLARE domainDataRef1 REFERENCE TO OutputRoot.XMLNSC;
 		DECLARE domainName1 CHARACTER 'XMLNSC';

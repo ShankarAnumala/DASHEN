@@ -9,29 +9,29 @@
     <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.LOG4J_ERROR" name="LOG4J_ERROR" defaultValueLiteral="Log4j is not Configured Properly.">
       <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     </eStructuralFeatures>
-    <translation xmi:type="utility:TranslatableString" key="ABE_Businessflow" bundleName="ABE_Businessflow" pluginId="IN_AccountBalanceEnquiry_Businessflow"/>
-    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/IN_AccountBalanceEnquiry_Businessflow/icons/full/obj16/ABE_Businessflow.gif"/>
-    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/IN_AccountBalanceEnquiry_Businessflow/icons/full/obj30/ABE_Businessflow.gif"/>
+    <translation xmi:type="utility:TranslatableString" key="ABE_Businessflow" bundleName="ABE_Businessflow" pluginId="AccountBalanceEnquiry_Businessflow"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/AccountBalanceEnquiry_Businessflow/icons/full/obj16/ABE_Businessflow.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/AccountBalanceEnquiry_Businessflow/icons/full/obj30/ABE_Businessflow.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmWSRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="268,32" URLSpecifier="http://localhost:7800/ABE_webserviceflow" httpVersion="1.1" protocol="TLS" messageDomainProperty="XMLNSC">
+      <nodes xmi:type="ComIbmWSRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="282,17" URLSpecifier="http://localhost:7800/ABE_webserviceflow" httpVersion="1.1" protocol="TLS" messageDomainProperty="XMLNSC">
         <translation xmi:type="utility:ConstantString" string="CBS Request"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="398,54" dataSource="DBDSN" computeExpression="esql://routine/#ABE_Compute1.Main" computeMode="all">
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="416,68" dataSource="DBDSN" computeExpression="esql://routine/#ABE_Compute1.Main" computeMode="all">
         <translation xmi:type="utility:ConstantString" string="Compute"/>
       </nodes>
-      <nodes xmi:type="CommonExceptionLogging_ExceptionFlow.subflow:FCMComposite_1" xmi:id="FCMComposite_1_7" location="472,224">
+      <nodes xmi:type="CommonExceptionLogging_ExceptionFlow.subflow:FCMComposite_1" xmi:id="FCMComposite_1_7" location="417,234">
         <translation xmi:type="utility:ConstantString" string="ExceptionFlow"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_8" location="202,73" dataSource="DBDSN" computeExpression="esql://routine/#ABE_Compute.Main" computeMode="all">
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_8" location="179,76" dataSource="DBDSN" computeExpression="esql://routine/#ABE_Compute.Main" computeMode="all">
         <translation xmi:type="utility:ConstantString" string="Compute1"/>
       </nodes>
-      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="19,116" URLSpecifier="/INB_ABE" messageDomainProperty="XMLNSC">
-        <translation xmi:type="utility:ConstantString" string="INB_AccountbalanceenquirybusinessflowInput"/>
+      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="13,158" URLSpecifier="/ABE" messageDomainProperty="XMLNSC">
+        <translation xmi:type="utility:ConstantString" string="Accountbalanceenquiry_businessflowInput"/>
       </nodes>
-      <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="513,81">
-        <translation xmi:type="utility:ConstantString" string="INB_AccountbalancenquirybusinessflowReply"/>
+      <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="535,83">
+        <translation xmi:type="utility:ConstantString" string="Accountbalancenquiry_businessflowReply"/>
       </nodes>
-      <nodes xmi:type="ComIbmCallableFlowInvoke.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="588,184" targetApplication="Auditdblogging_Flow" targetEndpointName="auditlogging">
+      <nodes xmi:type="ComIbmCallableFlowInvoke.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="585,209" targetApplication="Auditdblogging_Flow" targetEndpointName="auditlogging">
         <translation xmi:type="utility:ConstantString" string="payloadlogging"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_7" sourceNode="FCMComposite_1_4" sourceTerminalName="OutTerminal.failure" targetTerminalName="InTerminal.Input"/>
@@ -51,9 +51,9 @@
     </composition>
     <propertyOrganizer>
       <propertyDescriptor groupName="Group.Basic" configurable="true" userDefined="true" describedAttribute="Property.LOG4J_PATH">
-        <propertyName xmi:type="utility:TranslatableString" key="Property.LOG4J_PATH" bundleName="ABE_Businessflow" pluginId="IN_AccountBalanceEnquiry_Businessflow"/>
+        <propertyName xmi:type="utility:TranslatableString" key="Property.LOG4J_PATH" bundleName="ABE_Businessflow" pluginId="AccountBalanceEnquiry_Businessflow"/>
         <propertyDescriptor groupName="Group.Basic" configurable="true" userDefined="true" describedAttribute="Property.LOG4J_ERROR">
-          <propertyName xmi:type="utility:TranslatableString" key="Property.LOG4J_ERROR" bundleName="ABE_Businessflow" pluginId="IN_AccountBalanceEnquiry_Businessflow"/>
+          <propertyName xmi:type="utility:TranslatableString" key="Property.LOG4J_ERROR" bundleName="ABE_Businessflow" pluginId="AccountBalanceEnquiry_Businessflow"/>
         </propertyDescriptor>
       </propertyDescriptor>
     </propertyOrganizer>
