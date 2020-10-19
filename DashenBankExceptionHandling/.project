@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Auditdblogging_Flow</name>
+	<name>DashenBankExceptionHandling</name>
 	<comment></comment>
 	<projects>
-		<project>log4jlib</project>
-		<project>Dashen_log4jlib_1</project>
-		<project>Dashen_commonESQL</project>
 		<project>DashenBankCommonEsql</project>
-		<project>DashenBankExceptionHandling</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -22,6 +18,21 @@
 		</buildCommand>
 		<buildCommand>
 			<name>com.ibm.etools.mft.connector.policy.ui.PolicyBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorServiceBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.connector.ui.editor.connectorEventBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.etools.mft.uri.sharedlibbuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -112,7 +123,8 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.ibm.etools.msgbroker.tooling.applicationNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.libraryNature</nature>
 		<nature>com.ibm.etools.msgbroker.tooling.messageBrokerProjectNature</nature>
+		<nature>com.ibm.etools.msgbroker.tooling.sharedLibraryNature</nature>
 	</natures>
 </projectDescription>

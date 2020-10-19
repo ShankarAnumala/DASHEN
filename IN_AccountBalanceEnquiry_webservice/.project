@@ -4,8 +4,9 @@
 	<comment></comment>
 	<projects>
 		<project>Dashen_log4jlib_1</project>
-		<project>Common_ExceptionHandling</project>
 		<project>Dashen_commonESQL</project>
+		<project>DashenBankCommonEsql</project>
+		<project>DashenBankExceptionHandling</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

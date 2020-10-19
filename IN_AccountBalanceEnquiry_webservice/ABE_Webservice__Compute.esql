@@ -28,8 +28,8 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 	END;
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
-	--	DECLARE id CHARACTER InputRoot.HTTPInputHeader."Content-Type";
-	--    SET Environment.id = id;
+		DECLARE id CHARACTER InputRoot.HTTPInputHeader."Content-Type";
+	    SET Environment.id = id;
 	    SET Environment.ccidRef = InputRoot.Properties.CodedCharSetId;
         SET Environment.encodeRef = InputRoot.Properties.Encoding;
 	    SET Environment.domainDataRef = InputRoot.XMLNSC;
@@ -41,13 +41,13 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 	    DECLARE domainName CHARACTER Environment.domainName; 
         DECLARE LOG3 CHARACTER getPayLoad(domainName,domainDataRef,encodeRef,ccidRef);
         
-        CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','..........INB_AccountBalanceEnquiry Provider Flow is Started...........') INTO rc;
+        CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','..........AccountBalanceEnquiry Provider Flow is Started...........') INTO rc;
 		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','Request data is: '||LOG3) INTO rc;
 	            
-	--	SET OutputRoot.HTTPResponseHeader."Content-Type" = id;
+		SET OutputRoot.HTTPResponseHeader."Content-Type" = id;
 		
 		DECLARE NAME CHARACTER InputRoot.XMLNSC.AccountBalanceEnquiry.CustomerName;
-		DECLARE ACC_NUM INTEGER InputRoot.XMLNSC.AccountBalanceEnquiry.AccountNo;
+		DECLARE ACC_NUM INTEGER InputRoot.XMLNSC.AccountBalanceEnquiry.AccNo;
 		DECLARE TOTALAMOUNT INTEGER;
         
         DECLARE Qry1 CHARACTER 'SELECT * FROM SAVINGSACCOUNTFUNDTRANSFER WHERE NAME=? AND ACCOUNTNUMBER=?';
@@ -70,7 +70,7 @@ CREATE COMPUTE MODULE ABE_Webservice__Compute
 		DECLARE LOG6 CHARACTER getPayLoad(domainName1,domainDataRef1,encodeRef,ccidRef);
 		
 		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','Response data is: '||LOG6) INTO rc;
-		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','..........INB_AccountBalanceEnquiry Provider Flow is Ended...........') INTO rc;
+		CALL writeToLogFile(MessageFlowLabel,'INB_AccountBalanceEnquiry_Log','DEBUG','..........AccountBalanceEnquiry Provider Flow is Ended...........') INTO rc;
 		
 	END;
 END MODULE;

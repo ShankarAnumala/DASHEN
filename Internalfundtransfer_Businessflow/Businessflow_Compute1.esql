@@ -67,8 +67,9 @@ CREATE COMPUTE MODULE Businessflow_Compute1
 		CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','------------Response Received from Backend flow---------------') INTO rc;
 		CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','Response data is: '||payload) INTO rc;
 	            
-		SET OutputRoot.HTTPResponseHeader."Content-Type" = id1;
+	--	SET OutputRoot.HTTPResponseHeader."Content-Type" = id1;
         SET OutputRoot.SOAP = InputRoot.SOAP;
+        SET OutputLocalEnvironment.Destination.SOAP.Reply.ReplyIdentifier = CAST(Environment.id1 AS BLOB);
 		
 --		DECLARE Qry1 CHARACTER 'SELECT * FROM DASHENBANK_SERVICE_CONFIG WHERE BUSINESSFLOW_NAME=?';
 --		DECLARE DATA ROW;
@@ -76,11 +77,11 @@ CREATE COMPUTE MODULE Businessflow_Compute1
 --		SET DATA.values[]=PASSTHRU(Qry1 TO Database.DBDSN VALUES(data1));
 --		SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName  = DATA.values.ROUTER_RESPONSE_Q;
         
-        DECLARE TRANSACTION_STATUS4 CHARACTER 'Response Sent to Router flow';
+        DECLARE TRANSACTION_STATUS4 CHARACTER 'Response Sent to END USER';
 	    DECLARE CREATED_ON4 TIMESTAMP CURRENT_TIMESTAMP;
 	    SET Environment.val2[] = PASSTHRU(qry11 TO Database.DBDSN VALUES(TRANSACTION_STATUS4,CREATED_ON4));
 		
-		CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','------------Response Sent to Router flow------------') INTO rc;
+		CALL writeToLogFile(MessageFlowLabel,'BUSINESSFLOW_LOG','DEBUG','------------Response Sent to END USER------------') INTO rc;
 		
 	END;
 END MODULE;
